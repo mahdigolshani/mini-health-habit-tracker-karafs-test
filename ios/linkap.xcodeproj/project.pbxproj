@@ -1,0 +1,1253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* linkapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* linkapTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-linkap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-linkap.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-linkap-linkapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-linkap-linkapTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		785ADC8C89664863AA0F0018 /* IRANSansFaNum-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52D5C3C9B0E1476A95BB2286 /* IRANSansFaNum-Black.ttf */; };
+		459736C76ED84386AC365972 /* IRANSansFaNum-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B050AB0EB8A415EB9635D8B /* IRANSansFaNum-Bold.ttf */; };
+		28E4432A50F34D14B53D2A0A /* IRANSansFaNum-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A7185FF2DF4937B8DA76BB /* IRANSansFaNum-Light.ttf */; };
+		D78BBE739E944EF59536D798 /* IRANSansFaNum-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB78F883374876A900CD2A /* IRANSansFaNum-Medium.ttf */; };
+		33B8A61BDE3D4FCE9CCF2247 /* IRANSansFaNum-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B4CF104AF144D41B8842506 /* IRANSansFaNum-Regular.ttf */; };
+		CDA00DDCE35E404D84562FE8 /* IRANSansFaNum-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D9E598B8BA4A6FB325EBC6 /* IRANSansFaNum-UltraLight.ttf */; };
+		456DD48899BF41E5A537BC5D /* arrow-left.svg in Resources */ = {isa = PBXBuildFile; fileRef = 35110911366F48EAAE52DB6F /* arrow-left.svg */; };
+		05108A8EAA6B4102ACB058D9 /* arrow-right.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8015DD8C1B3449DEB00EFA45 /* arrow-right.svg */; };
+		D7DF18FB029441E69D0A825C /* back.svg in Resources */ = {isa = PBXBuildFile; fileRef = 413FE8813A074552886087CC /* back.svg */; };
+		CC57D423D3A6417C8D66E37F /* battery.svg in Resources */ = {isa = PBXBuildFile; fileRef = EDF49E05C2544019A7EDC910 /* battery.svg */; };
+		173B2840AAAD45DB8B249F28 /* chart.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1C736FA5F44E0BF91E607 /* chart.svg */; };
+		963E86DCD4414C4AB4E11B1A /* clock.svg in Resources */ = {isa = PBXBuildFile; fileRef = FA18B5B3AD4B46B7A9D533BC /* clock.svg */; };
+		E285C8A5ADDC4B35BF6ABB24 /* close.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6CD75AEA08334EA08628361B /* close.svg */; };
+		96489F7FB5DB4A0FBD57ACFE /* device.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4BBF1DE947AE4B78AD3E265F /* device.svg */; };
+		25F550A02CE24ED4AEB9C884 /* drop.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1452630A63D04FF9ADF0D7C2 /* drop.svg */; };
+		FCEFDCACFADD46658A971931 /* edit.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5179C0754214055B844BA46 /* edit.svg */; };
+		720AD88875FA4F498CC2CB42 /* error.svg in Resources */ = {isa = PBXBuildFile; fileRef = 50DC35B6F4D54F57AF5CA521 /* error.svg */; };
+		65642614357B403B844DA9F4 /* exit.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1566E03F5BDC4447A5DB3A88 /* exit.svg */; };
+		A63F53255B9D45D4AC34840D /* fan-auto.svg in Resources */ = {isa = PBXBuildFile; fileRef = EE6395622EE04D45B8A751BA /* fan-auto.svg */; };
+		E65BD87551AF4C41AFE1CE08 /* fan-high.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A90444DC5249AA87A7C0A2 /* fan-high.svg */; };
+		6AA24D8BAFAF4C1DB71C507D /* fan-low.svg in Resources */ = {isa = PBXBuildFile; fileRef = E923A1CAA0354B6CAA29CF80 /* fan-low.svg */; };
+		A6BDAD95D2884EC59ADD890C /* fan-medium.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4B62CC3C49AF487F89BD60A0 /* fan-medium.svg */; };
+		E3D0D68A96094FC693A9358C /* fan.svg in Resources */ = {isa = PBXBuildFile; fileRef = DFA84475121A4C84ABA25F3E /* fan.svg */; };
+		642C45CD58E946D28DD1D43E /* gallery.svg in Resources */ = {isa = PBXBuildFile; fileRef = E639984CEC93400FBE498484 /* gallery.svg */; };
+		7684C0B8C72C4B5AA8AC2017 /* graph.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9ECBC4A86138421DB88AD355 /* graph.svg */; };
+		A95EFA7CCC32462F99410A8F /* heart.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1F70BA346C478DBE7F52F6 /* heart.svg */; };
+		57C9FBA8185D442B8FAAE14A /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6B2CE7F656F84F1E9E8C77B4 /* home.svg */; };
+		426BB9681FED4DE0AB276355 /* input.svg in Resources */ = {isa = PBXBuildFile; fileRef = B4D58FEC49D04BC2BBDF8BE0 /* input.svg */; };
+		0D84C242FA03485398C7F48F /* invisible.svg in Resources */ = {isa = PBXBuildFile; fileRef = C131FF9045454A27B6EF42BF /* invisible.svg */; };
+		FF9B205113AD440DBF6C343D /* kebab-menu.svg in Resources */ = {isa = PBXBuildFile; fileRef = F955D0185B8144B6BB446EE9 /* kebab-menu.svg */; };
+		1BB73A5BD7D9491596C87DD8 /* keyboard.svg in Resources */ = {isa = PBXBuildFile; fileRef = 244036C682FA459F944D154F /* keyboard.svg */; };
+		B9C1660FEBC64776A648A27D /* meatballs-menu.svg in Resources */ = {isa = PBXBuildFile; fileRef = F9CC1C94CBA04ED3BDD1DC97 /* meatballs-menu.svg */; };
+		6A6F73E2BE0740889EABEB26 /* minus.svg in Resources */ = {isa = PBXBuildFile; fileRef = ED94BB38755B4BE19EEE998B /* minus.svg */; };
+		544939188350472D8247072B /* pause.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5B4101E4C34A4F38A5810333 /* pause.svg */; };
+		9696724BC7DF486A9F6AF457 /* phone.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B15EB0B88448FA63AE045 /* phone.svg */; };
+		617AE38D9E5343A5A97D7E0C /* play.svg in Resources */ = {isa = PBXBuildFile; fileRef = 77E4C93B44E0478AAD8FB4E5 /* play.svg */; };
+		24979D0C45C749FFBFADF505 /* plus-skinny.svg in Resources */ = {isa = PBXBuildFile; fileRef = 83453E9532AB4A08B61AB7E0 /* plus-skinny.svg */; };
+		4DB5C43C2AAD4BEEAD4EC0E4 /* plus-thick.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8B13CF9CCA254840AE815D8C /* plus-thick.svg */; };
+		988BEF99BEC5437E9FBF8BC8 /* power-rounded.svg in Resources */ = {isa = PBXBuildFile; fileRef = DAFB31B489244751B1508409 /* power-rounded.svg */; };
+		61518F6F73C8426B8F00FA94 /* power-squared.svg in Resources */ = {isa = PBXBuildFile; fileRef = 85A5E40A10B546FE9C930419 /* power-squared.svg */; };
+		5A11F5BD6B474134AA90D8DF /* profile.svg in Resources */ = {isa = PBXBuildFile; fileRef = 555605ECC11B4F75974A605D /* profile.svg */; };
+		2D2587238A8E495696B649D9 /* reload.svg in Resources */ = {isa = PBXBuildFile; fileRef = ACA2576FE6834AB498600975 /* reload.svg */; };
+		AD374EAEED5F4E1DAFC0F8A4 /* routine.svg in Resources */ = {isa = PBXBuildFile; fileRef = 27ADF13CFCEE4EEDA342143F /* routine.svg */; };
+		4CE4E8BA46034B908B331FE9 /* run.svg in Resources */ = {isa = PBXBuildFile; fileRef = 48599CF117854C9DBA65D3A2 /* run.svg */; };
+		C0A05D3A6C83413391DDA1AA /* scan.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6698B3A05B2E418BB952EC87 /* scan.svg */; };
+		856E05AF8CBB4AC096FCD78B /* search.svg in Resources */ = {isa = PBXBuildFile; fileRef = F008DBD394464F24B91BAA74 /* search.svg */; };
+		DCB743F0EFDC4E6093A29021 /* secured-entry.svg in Resources */ = {isa = PBXBuildFile; fileRef = 985CCC72DDE44887A279CBAF /* secured-entry.svg */; };
+		E83D8F395DA74EC581477B2C /* settings.svg in Resources */ = {isa = PBXBuildFile; fileRef = C01A457FBEF2431C9BF29876 /* settings.svg */; };
+		2805DDF5FCDF4C9790336F95 /* snowflake.svg in Resources */ = {isa = PBXBuildFile; fileRef = 749E5BF9E62D4DD48008FF04 /* snowflake.svg */; };
+		41FA598A6D5C4B3AA2C93954 /* subtle-up-arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1BFD716655C244F7BB62834E /* subtle-up-arrow.svg */; };
+		B538DC50893D47C099AAD583 /* success.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E06AF10DF4F53BC8A7FE7 /* success.svg */; };
+		1F4AF008936F40F9AA94614F /* sun-overlaid.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C23D687C6414ADB9C25BF9A /* sun-overlaid.svg */; };
+		F794071D256E4FDF8BB4CB09 /* trash.svg in Resources */ = {isa = PBXBuildFile; fileRef = B067603BC9B346F59A197B90 /* trash.svg */; };
+		571ED3692C704D289890A2F4 /* visible.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9E93A7B02AE540008DBFD894 /* visible.svg */; };
+		98C87C0617EC447495AD8A2D /* ac-controller.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6F27342B458B4A36A334F39B /* ac-controller.svg */; };
+		8A1C65191968477BBAF0F6BF /* air-quality-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = D09ED7B242B24367B4002661 /* air-quality-sensor.svg */; };
+		0E4736E6D7A24BC5A6F27652 /* apartment.svg in Resources */ = {isa = PBXBuildFile; fileRef = 54F0950B000B40A8BA4B88AB /* apartment.svg */; };
+		53652E011D6341389658EE3F /* bathroom.svg in Resources */ = {isa = PBXBuildFile; fileRef = F19FB0590D9A4AE2A8E709D9 /* bathroom.svg */; };
+		EA7A2C4FA6534A81879E741D /* bedroom.svg in Resources */ = {isa = PBXBuildFile; fileRef = 471F9CD49A8C455ABA8BF64F /* bedroom.svg */; };
+		50CC229D21704EB3960C3ECD /* co-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9C6643496BC54C529C1248F6 /* co-sensor.svg */; };
+		EA75DD46650C4DAC87A79261 /* curvey-apartment.svg in Resources */ = {isa = PBXBuildFile; fileRef = A17ADFAA477E4371AC134794 /* curvey-apartment.svg */; };
+		D35D3D84538B45319D78F4FB /* dimmer.svg in Resources */ = {isa = PBXBuildFile; fileRef = A677A7D175414B88BFBE79CD /* dimmer.svg */; };
+		8CCF81BC4FD14BF5A8B01A54 /* door-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 981B95D04841488BBB7DA756 /* door-sensor.svg */; };
+		98A7913B50EA494E98092E09 /* double-panel-curtain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5A980B2F2C6B426796B6FD59 /* double-panel-curtain.svg */; };
+		8BCE0468CEC1463EA18B75B2 /* electricity-meter.svg in Resources */ = {isa = PBXBuildFile; fileRef = 416FC25CA1E648A8B026B899 /* electricity-meter.svg */; };
+		DCA60BAC2D294274A1BE1FA4 /* gable-over-gable-roof-house.svg in Resources */ = {isa = PBXBuildFile; fileRef = CBA6FDC5C5014FF5B30ADC1A /* gable-over-gable-roof-house.svg */; };
+		4F7783294E284629B9AE3DEB /* gas-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4451088416CC40F59A5012ED /* gas-sensor.svg */; };
+		7DE2CDB68BB94B8EB2EAA5EB /* gateway-hub.svg in Resources */ = {isa = PBXBuildFile; fileRef = C279433B0E13419F8DF76D72 /* gateway-hub.svg */; };
+		B48854DCB8774802B4C61BCC /* green-house.svg in Resources */ = {isa = PBXBuildFile; fileRef = C6A429579DC64A8B80D5611C /* green-house.svg */; };
+		0BFFC4A59E5D407C8B00A56A /* humidity-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = DE15A5DDA2544A47970D664D /* humidity-sensor.svg */; };
+		FB398AB466BE41AA9BF43830 /* illuminance-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32E01A8D9CB84F61BA3C55BD /* illuminance-sensor.svg */; };
+		E1DCBC9C3E0C4380952F1B2B /* ir-remote.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8043C922CF1D4A7492BF6F20 /* ir-remote.svg */; };
+		585691CB4E564C4F9BA1B28D /* ir-transmitter.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5963AAF9AC244A22B2A2E901 /* ir-transmitter.svg */; };
+		C6BC641D0E494A2FBD67A8DD /* kitchen.svg in Resources */ = {isa = PBXBuildFile; fileRef = 825233347CE942DA8DA4827F /* kitchen.svg */; };
+		DCD7A18151154BE0856594ED /* livingroom.svg in Resources */ = {isa = PBXBuildFile; fileRef = CE53AC42E39E4F44A6DD3352 /* livingroom.svg */; };
+		A6D9AC76F0BD493C8F3C52EF /* lock.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2533591DA1594C3992AFDE0F /* lock.svg */; };
+		66E87AF027E04ADE98B71A00 /* moon-and-star.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6FD68EFF5649485AB3EBDA83 /* moon-and-star.svg */; };
+		8986B68627C24A06AD56BD08 /* motion-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = A62F68E1D7FF4A74AF94693E /* motion-sensor.svg */; };
+		AE1411EB070B4B448A4FDB0D /* movie-time.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1634C1B65B7F4D88BEE96AE8 /* movie-time.svg */; };
+		74C0F495A6944752A9798962 /* multi-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3376CF639E7643E39A6F4EAC /* multi-sensor.svg */; };
+		305CAD84611545298B71E418 /* office.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6F4B7903357446FF914CFCBF /* office.svg */; };
+		F21C3960A2BA4AE49566268A /* one-gang-relay-module.svg in Resources */ = {isa = PBXBuildFile; fileRef = BFE8F2FB922947C58E72B222 /* one-gang-relay-module.svg */; };
+		E637972995E540BA9855BCA6 /* one-gang-switch.svg in Resources */ = {isa = PBXBuildFile; fileRef = B75E4E704EF64776B927E213 /* one-gang-switch.svg */; };
+		B16BE929ED7C46999772A119 /* outlet.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80DE6DB71EB945A5AFCCD89B /* outlet.svg */; };
+		F745DAEB07BC4E51A2044224 /* raining-cloud.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0F5880F77C584B0DB4A276CB /* raining-cloud.svg */; };
+		3CAA70C904DC47B58FCBD0AE /* relay.svg in Resources */ = {isa = PBXBuildFile; fileRef = 167E638B17F54C8A8BAB0286 /* relay.svg */; };
+		D359317C0075457B89F7418C /* remote-control-alt.svg in Resources */ = {isa = PBXBuildFile; fileRef = A094BCD6078F4135BA785AE1 /* remote-control-alt.svg */; };
+		DDB4418D68854778AC10303F /* remote-control.svg in Resources */ = {isa = PBXBuildFile; fileRef = DE5E9569233E4BFA9D801655 /* remote-control.svg */; };
+		558C5BBD6AD44AEE9ABAB2D3 /* repeater.svg in Resources */ = {isa = PBXBuildFile; fileRef = C537DDC01623416095A16DE7 /* repeater.svg */; };
+		124824BC0E11436A9380DE39 /* room.svg in Resources */ = {isa = PBXBuildFile; fileRef = F638A7949141403E852080B5 /* room.svg */; };
+		D008F800CD4F4B268B8E854B /* siheyuan.svg in Resources */ = {isa = PBXBuildFile; fileRef = C54D1EF1BF384052A88B7216 /* siheyuan.svg */; };
+		4448A121F0274F73A6ED677E /* single-panel-ltr-curtain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4DAAB82A0FA44D0789BC9986 /* single-panel-ltr-curtain.svg */; };
+		8AA10FF570F3484781902076 /* single-panel-rtl-curtain.svg in Resources */ = {isa = PBXBuildFile; fileRef = BE3695FD7B2A44D085D4160A /* single-panel-rtl-curtain.svg */; };
+		F431540CF45A4759BCDE90DC /* siren.svg in Resources */ = {isa = PBXBuildFile; fileRef = FD3B8DE3C412414882546AC3 /* siren.svg */; };
+		CCC7A585171743688A2BF77C /* smoke-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2F80EE39D1AF4C119E9D3BE3 /* smoke-sensor.svg */; };
+		C1E0C4A0D2B040B98FD2D6D0 /* snow.svg in Resources */ = {isa = PBXBuildFile; fileRef = FC3DFE39A04E49EEA45A649E /* snow.svg */; };
+		94048CE8DE7849BD94A56629 /* soil-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1C8560662C494761B2D4B96E /* soil-sensor.svg */; };
+		D98485E6C87C42ECB08533ED /* store.svg in Resources */ = {isa = PBXBuildFile; fileRef = 02156CC28B4F4907922E68AB /* store.svg */; };
+		D41ADA975BE1414B860B08EC /* sunrise.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8E685E149D9447DEA79409CA /* sunrise.svg */; };
+		A23943AFF2F14A2B90040ADB /* sunset.svg in Resources */ = {isa = PBXBuildFile; fileRef = B779613C827C43709A093FEB /* sunset.svg */; };
+		3D9C8C155FDC4325AFF81A46 /* temperature-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = B0055FEED00E48B9AD84AC6B /* temperature-sensor.svg */; };
+		9E3BDDBFE1204706B940DA5D /* thermostat.svg in Resources */ = {isa = PBXBuildFile; fileRef = BAABF170D37B420D92A43E53 /* thermostat.svg */; };
+		15B12C730A1245D4A7092333 /* three-gang-relay-module.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4EA988E3812C4DA7BA539776 /* three-gang-relay-module.svg */; };
+		F9F8707972E4424D80C5F15D /* three-gang-switch.svg in Resources */ = {isa = PBXBuildFile; fileRef = 517DE011AD88463CB724B876 /* three-gang-switch.svg */; };
+		57E64D6D91F44114B130F1C5 /* tiny-house.svg in Resources */ = {isa = PBXBuildFile; fileRef = 55E267031A71457BA3D9AF27 /* tiny-house.svg */; };
+		12D3A3477641428785E0BDE5 /* two-gang-relay-module.svg in Resources */ = {isa = PBXBuildFile; fileRef = AF24584CC0EE4283BA7AEA9E /* two-gang-relay-module.svg */; };
+		62E4A16113D14AE08063668D /* two-gang-switch.svg in Resources */ = {isa = PBXBuildFile; fileRef = F723497D9058467B89086110 /* two-gang-switch.svg */; };
+		D4A0F63D35454256AA07FDF1 /* unknown.svg in Resources */ = {isa = PBXBuildFile; fileRef = 10030ED4BAD943ACB9F54F8A /* unknown.svg */; };
+		93DC3825C55244BAA0382692 /* unlock.svg in Resources */ = {isa = PBXBuildFile; fileRef = E812E48FA2FB4B289E0273AF /* unlock.svg */; };
+		366FF822D9CC4D3A998852E1 /* valve.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7F15CC49450A437095BA4E76 /* valve.svg */; };
+		77836613055C44A6B9B8AC0E /* vertical-curtain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4E2A083CA2414B5A919CA1EF /* vertical-curtain.svg */; };
+		34883ED3548B42A5B084EC25 /* repeater-active.svg in Resources */ = {isa = PBXBuildFile; fileRef = CA3B93373BAA4723B0D91840 /* repeater-active.svg */; };
+		F49063FE74FE479799D9DFD9 /* repeater-inactive.svg in Resources */ = {isa = PBXBuildFile; fileRef = 504659A5541C433EA7EA64A6 /* repeater-inactive.svg */; };
+		7B641AE108E44D77B3CBAC8B /* smart-lady.svg in Resources */ = {isa = PBXBuildFile; fileRef = D89A6EF9D4744E24A4B36AD3 /* smart-lady.svg */; };
+		192D48D948F8406F9E27AD58 /* activity-indicator.svg in Resources */ = {isa = PBXBuildFile; fileRef = 31455EA36F824A8C860B9FC9 /* activity-indicator.svg */; };
+		07C23493D45446E792A93AA3 /* checkbox-box.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1B2F2D9384FE484B895ECA55 /* checkbox-box.svg */; };
+		8B02A90737124CC9A173BCA0 /* checkbox-checked.svg in Resources */ = {isa = PBXBuildFile; fileRef = 55E9A29E81AD4E2BA2866381 /* checkbox-checked.svg */; };
+		97A97BC9816B47428E8762DB /* checkbox-crossed.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6113A0EE430941B9B4F9485A /* checkbox-crossed.svg */; };
+		97BA7EC2D89D42B9B1CE273A /* curtain-fabric.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5B785886513B436DBA7CC9F5 /* curtain-fabric.svg */; };
+		217394F80710445FA4CD607C /* lock-body.svg in Resources */ = {isa = PBXBuildFile; fileRef = E2E2BDDB7E724D459D77EC70 /* lock-body.svg */; };
+		F167FF5D968F49EA97E729DC /* lock-shackle.svg in Resources */ = {isa = PBXBuildFile; fileRef = D3D25DC9BCC3480D92BA4482 /* lock-shackle.svg */; };
+		E7B72AFEE94640D1A5E1D6E0 /* window.svg in Resources */ = {isa = PBXBuildFile; fileRef = 41500E39076245E5BC22D373 /* window.svg */; };
+		0A649903CDC94639B93519C9 /* remote-button-down.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7EF58CAF79794F428F9199EC /* remote-button-down.svg */; };
+		1892A6A2815241D6A7E77A2E /* remote-button-left.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2A2BB30233124A1684D843F7 /* remote-button-left.svg */; };
+		0C23E2B48BFA46448094435E /* remote-button-ok.svg in Resources */ = {isa = PBXBuildFile; fileRef = F6F9668600EC4B7EB694D7D8 /* remote-button-ok.svg */; };
+		8D083DD8A8FC4AD586ECE0D6 /* remote-button-right.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5FE487CF6C6C44CBAD3331BA /* remote-button-right.svg */; };
+		86F8A86AB0B04EFBB7E981C1 /* remote-button-up.svg in Resources */ = {isa = PBXBuildFile; fileRef = B064D0219D794FE3A94DCEE1 /* remote-button-up.svg */; };
+		70E3542F1D7E4ADA805E5B6E /* thermostat-ring.svg in Resources */ = {isa = PBXBuildFile; fileRef = C2FFDD464EE942A8A53981C7 /* thermostat-ring.svg */; };
+		7DB35CD84E1F426DA13C8EAA /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 051CC05DC9AA4FEB9F85F16D /* Roboto-Medium.ttf */; };
+		9A2C1F2DEB1D4583989D1572 /* water-leakage-sensor.svg in Resources */ = {isa = PBXBuildFile; fileRef = 22218719AC0643318C015B8B /* water-leakage-sensor.svg */; };
+		F381F39ABCA745ECA6309D5F /* sun.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3E880E1A9C5946F5B2C1ADC7 /* sun.svg */; };
+		9847B2DBE92D4901A8C553E5 /* power-meter.svg in Resources */ = {isa = PBXBuildFile; fileRef = BC72FB9D9E4745ECB195756F /* power-meter.svg */; };
+		FA91D2A695C34581877C34F7 /* bar-chart.svg in Resources */ = {isa = PBXBuildFile; fileRef = DBA051CBE2AA481EB744FA7F /* bar-chart.svg */; };
+		7DB8E51112AF48DCBC0AF858 /* line-chart.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3077C6F4C3B940BB847AB6FD /* line-chart.svg */; };
+		34360D10E54F465D92FB2D8E /* no-camera.svg in Resources */ = {isa = PBXBuildFile; fileRef = F97CA569EC6F47D190AF23CC /* no-camera.svg */; };
+		0387C4089C554FB79AB73EE5 /* street-light.svg in Resources */ = {isa = PBXBuildFile; fileRef = D766EA61719E47FF8EB2E443 /* street-light.svg */; };
+		0EAE4ECB459246A389DD9F2A /* bell.svg in Resources */ = {isa = PBXBuildFile; fileRef = 07E7CACDEB11484C8380CCCE /* bell.svg */; };
+		6A4F545AD54B414B8E922791 /* header-bell.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9672694E8D554C028B697376 /* header-bell.svg */; };
+		A365BF25FD8D4960A86593DC /* sms.svg in Resources */ = {isa = PBXBuildFile; fileRef = D9DDB341742C466896FF9B73 /* sms.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = linkap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* linkapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linkapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* linkapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = linkapTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* linkap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = linkap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = linkap/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = linkap/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = linkap/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = linkap/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = linkap/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = linkap/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-linkap-linkapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-linkap-linkapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-linkap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linkap.debug.xcconfig"; path = "Target Support Files/Pods-linkap/Pods-linkap.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-linkap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linkap.release.xcconfig"; path = "Target Support Files/Pods-linkap/Pods-linkap.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-linkap-linkapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linkap-linkapTests.debug.xcconfig"; path = "Target Support Files/Pods-linkap-linkapTests/Pods-linkap-linkapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-linkap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-linkap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = linkap/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-linkap-linkapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-linkap-linkapTests.release.xcconfig"; path = "Target Support Files/Pods-linkap-linkapTests/Pods-linkap-linkapTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		52D5C3C9B0E1476A95BB2286 /* IRANSansFaNum-Black.ttf */ = {isa = PBXFileReference; name = "IRANSansFaNum-Black.ttf"; path = "../src/assets/fonts/IRANSansFaNum-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B050AB0EB8A415EB9635D8B /* IRANSansFaNum-Bold.ttf */ = {isa = PBXFileReference; name = "IRANSansFaNum-Bold.ttf"; path = "../src/assets/fonts/IRANSansFaNum-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8A7185FF2DF4937B8DA76BB /* IRANSansFaNum-Light.ttf */ = {isa = PBXFileReference; name = "IRANSansFaNum-Light.ttf"; path = "../src/assets/fonts/IRANSansFaNum-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2BBB78F883374876A900CD2A /* IRANSansFaNum-Medium.ttf */ = {isa = PBXFileReference; name = "IRANSansFaNum-Medium.ttf"; path = "../src/assets/fonts/IRANSansFaNum-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B4CF104AF144D41B8842506 /* IRANSansFaNum-Regular.ttf */ = {isa = PBXFileReference; name = "IRANSansFaNum-Regular.ttf"; path = "../src/assets/fonts/IRANSansFaNum-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7D9E598B8BA4A6FB325EBC6 /* IRANSansFaNum-UltraLight.ttf */ = {isa = PBXFileReference; name = "IRANSansFaNum-UltraLight.ttf"; path = "../src/assets/fonts/IRANSansFaNum-UltraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35110911366F48EAAE52DB6F /* arrow-left.svg */ = {isa = PBXFileReference; name = "arrow-left.svg"; path = "../src/assets/vectors/actions/arrow-left.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8015DD8C1B3449DEB00EFA45 /* arrow-right.svg */ = {isa = PBXFileReference; name = "arrow-right.svg"; path = "../src/assets/vectors/actions/arrow-right.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		413FE8813A074552886087CC /* back.svg */ = {isa = PBXFileReference; name = "back.svg"; path = "../src/assets/vectors/actions/back.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDF49E05C2544019A7EDC910 /* battery.svg */ = {isa = PBXFileReference; name = "battery.svg"; path = "../src/assets/vectors/actions/battery.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0EE1C736FA5F44E0BF91E607 /* chart.svg */ = {isa = PBXFileReference; name = "chart.svg"; path = "../src/assets/vectors/actions/chart.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA18B5B3AD4B46B7A9D533BC /* clock.svg */ = {isa = PBXFileReference; name = "clock.svg"; path = "../src/assets/vectors/actions/clock.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CD75AEA08334EA08628361B /* close.svg */ = {isa = PBXFileReference; name = "close.svg"; path = "../src/assets/vectors/actions/close.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4BBF1DE947AE4B78AD3E265F /* device.svg */ = {isa = PBXFileReference; name = "device.svg"; path = "../src/assets/vectors/actions/device.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1452630A63D04FF9ADF0D7C2 /* drop.svg */ = {isa = PBXFileReference; name = "drop.svg"; path = "../src/assets/vectors/actions/drop.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5179C0754214055B844BA46 /* edit.svg */ = {isa = PBXFileReference; name = "edit.svg"; path = "../src/assets/vectors/actions/edit.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		50DC35B6F4D54F57AF5CA521 /* error.svg */ = {isa = PBXFileReference; name = "error.svg"; path = "../src/assets/vectors/actions/error.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1566E03F5BDC4447A5DB3A88 /* exit.svg */ = {isa = PBXFileReference; name = "exit.svg"; path = "../src/assets/vectors/actions/exit.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE6395622EE04D45B8A751BA /* fan-auto.svg */ = {isa = PBXFileReference; name = "fan-auto.svg"; path = "../src/assets/vectors/actions/fan-auto.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3A90444DC5249AA87A7C0A2 /* fan-high.svg */ = {isa = PBXFileReference; name = "fan-high.svg"; path = "../src/assets/vectors/actions/fan-high.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E923A1CAA0354B6CAA29CF80 /* fan-low.svg */ = {isa = PBXFileReference; name = "fan-low.svg"; path = "../src/assets/vectors/actions/fan-low.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B62CC3C49AF487F89BD60A0 /* fan-medium.svg */ = {isa = PBXFileReference; name = "fan-medium.svg"; path = "../src/assets/vectors/actions/fan-medium.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DFA84475121A4C84ABA25F3E /* fan.svg */ = {isa = PBXFileReference; name = "fan.svg"; path = "../src/assets/vectors/actions/fan.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E639984CEC93400FBE498484 /* gallery.svg */ = {isa = PBXFileReference; name = "gallery.svg"; path = "../src/assets/vectors/actions/gallery.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9ECBC4A86138421DB88AD355 /* graph.svg */ = {isa = PBXFileReference; name = "graph.svg"; path = "../src/assets/vectors/actions/graph.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D1F70BA346C478DBE7F52F6 /* heart.svg */ = {isa = PBXFileReference; name = "heart.svg"; path = "../src/assets/vectors/actions/heart.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B2CE7F656F84F1E9E8C77B4 /* home.svg */ = {isa = PBXFileReference; name = "home.svg"; path = "../src/assets/vectors/actions/home.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4D58FEC49D04BC2BBDF8BE0 /* input.svg */ = {isa = PBXFileReference; name = "input.svg"; path = "../src/assets/vectors/actions/input.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C131FF9045454A27B6EF42BF /* invisible.svg */ = {isa = PBXFileReference; name = "invisible.svg"; path = "../src/assets/vectors/actions/invisible.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F955D0185B8144B6BB446EE9 /* kebab-menu.svg */ = {isa = PBXFileReference; name = "kebab-menu.svg"; path = "../src/assets/vectors/actions/kebab-menu.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		244036C682FA459F944D154F /* keyboard.svg */ = {isa = PBXFileReference; name = "keyboard.svg"; path = "../src/assets/vectors/actions/keyboard.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9CC1C94CBA04ED3BDD1DC97 /* meatballs-menu.svg */ = {isa = PBXFileReference; name = "meatballs-menu.svg"; path = "../src/assets/vectors/actions/meatballs-menu.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED94BB38755B4BE19EEE998B /* minus.svg */ = {isa = PBXFileReference; name = "minus.svg"; path = "../src/assets/vectors/actions/minus.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B4101E4C34A4F38A5810333 /* pause.svg */ = {isa = PBXFileReference; name = "pause.svg"; path = "../src/assets/vectors/actions/pause.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D8B15EB0B88448FA63AE045 /* phone.svg */ = {isa = PBXFileReference; name = "phone.svg"; path = "../src/assets/vectors/actions/phone.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77E4C93B44E0478AAD8FB4E5 /* play.svg */ = {isa = PBXFileReference; name = "play.svg"; path = "../src/assets/vectors/actions/play.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83453E9532AB4A08B61AB7E0 /* plus-skinny.svg */ = {isa = PBXFileReference; name = "plus-skinny.svg"; path = "../src/assets/vectors/actions/plus-skinny.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B13CF9CCA254840AE815D8C /* plus-thick.svg */ = {isa = PBXFileReference; name = "plus-thick.svg"; path = "../src/assets/vectors/actions/plus-thick.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DAFB31B489244751B1508409 /* power-rounded.svg */ = {isa = PBXFileReference; name = "power-rounded.svg"; path = "../src/assets/vectors/actions/power-rounded.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		85A5E40A10B546FE9C930419 /* power-squared.svg */ = {isa = PBXFileReference; name = "power-squared.svg"; path = "../src/assets/vectors/actions/power-squared.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		555605ECC11B4F75974A605D /* profile.svg */ = {isa = PBXFileReference; name = "profile.svg"; path = "../src/assets/vectors/actions/profile.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACA2576FE6834AB498600975 /* reload.svg */ = {isa = PBXFileReference; name = "reload.svg"; path = "../src/assets/vectors/actions/reload.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27ADF13CFCEE4EEDA342143F /* routine.svg */ = {isa = PBXFileReference; name = "routine.svg"; path = "../src/assets/vectors/actions/routine.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48599CF117854C9DBA65D3A2 /* run.svg */ = {isa = PBXFileReference; name = "run.svg"; path = "../src/assets/vectors/actions/run.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6698B3A05B2E418BB952EC87 /* scan.svg */ = {isa = PBXFileReference; name = "scan.svg"; path = "../src/assets/vectors/actions/scan.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F008DBD394464F24B91BAA74 /* search.svg */ = {isa = PBXFileReference; name = "search.svg"; path = "../src/assets/vectors/actions/search.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		985CCC72DDE44887A279CBAF /* secured-entry.svg */ = {isa = PBXFileReference; name = "secured-entry.svg"; path = "../src/assets/vectors/actions/secured-entry.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C01A457FBEF2431C9BF29876 /* settings.svg */ = {isa = PBXFileReference; name = "settings.svg"; path = "../src/assets/vectors/actions/settings.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		749E5BF9E62D4DD48008FF04 /* snowflake.svg */ = {isa = PBXFileReference; name = "snowflake.svg"; path = "../src/assets/vectors/actions/snowflake.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BFD716655C244F7BB62834E /* subtle-up-arrow.svg */ = {isa = PBXFileReference; name = "subtle-up-arrow.svg"; path = "../src/assets/vectors/actions/subtle-up-arrow.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F5E06AF10DF4F53BC8A7FE7 /* success.svg */ = {isa = PBXFileReference; name = "success.svg"; path = "../src/assets/vectors/actions/success.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8C23D687C6414ADB9C25BF9A /* sun-overlaid.svg */ = {isa = PBXFileReference; name = "sun-overlaid.svg"; path = "../src/assets/vectors/actions/sun-overlaid.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B067603BC9B346F59A197B90 /* trash.svg */ = {isa = PBXFileReference; name = "trash.svg"; path = "../src/assets/vectors/actions/trash.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E93A7B02AE540008DBFD894 /* visible.svg */ = {isa = PBXFileReference; name = "visible.svg"; path = "../src/assets/vectors/actions/visible.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F27342B458B4A36A334F39B /* ac-controller.svg */ = {isa = PBXFileReference; name = "ac-controller.svg"; path = "../src/assets/vectors/icons/ac-controller.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D09ED7B242B24367B4002661 /* air-quality-sensor.svg */ = {isa = PBXFileReference; name = "air-quality-sensor.svg"; path = "../src/assets/vectors/icons/air-quality-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54F0950B000B40A8BA4B88AB /* apartment.svg */ = {isa = PBXFileReference; name = "apartment.svg"; path = "../src/assets/vectors/icons/apartment.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F19FB0590D9A4AE2A8E709D9 /* bathroom.svg */ = {isa = PBXFileReference; name = "bathroom.svg"; path = "../src/assets/vectors/icons/bathroom.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		471F9CD49A8C455ABA8BF64F /* bedroom.svg */ = {isa = PBXFileReference; name = "bedroom.svg"; path = "../src/assets/vectors/icons/bedroom.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C6643496BC54C529C1248F6 /* co-sensor.svg */ = {isa = PBXFileReference; name = "co-sensor.svg"; path = "../src/assets/vectors/icons/co-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A17ADFAA477E4371AC134794 /* curvey-apartment.svg */ = {isa = PBXFileReference; name = "curvey-apartment.svg"; path = "../src/assets/vectors/icons/curvey-apartment.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A677A7D175414B88BFBE79CD /* dimmer.svg */ = {isa = PBXFileReference; name = "dimmer.svg"; path = "../src/assets/vectors/icons/dimmer.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		981B95D04841488BBB7DA756 /* door-sensor.svg */ = {isa = PBXFileReference; name = "door-sensor.svg"; path = "../src/assets/vectors/icons/door-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A980B2F2C6B426796B6FD59 /* double-panel-curtain.svg */ = {isa = PBXFileReference; name = "double-panel-curtain.svg"; path = "../src/assets/vectors/icons/double-panel-curtain.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		416FC25CA1E648A8B026B899 /* electricity-meter.svg */ = {isa = PBXFileReference; name = "electricity-meter.svg"; path = "../src/assets/vectors/icons/electricity-meter.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CBA6FDC5C5014FF5B30ADC1A /* gable-over-gable-roof-house.svg */ = {isa = PBXFileReference; name = "gable-over-gable-roof-house.svg"; path = "../src/assets/vectors/icons/gable-over-gable-roof-house.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4451088416CC40F59A5012ED /* gas-sensor.svg */ = {isa = PBXFileReference; name = "gas-sensor.svg"; path = "../src/assets/vectors/icons/gas-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C279433B0E13419F8DF76D72 /* gateway-hub.svg */ = {isa = PBXFileReference; name = "gateway-hub.svg"; path = "../src/assets/vectors/icons/gateway-hub.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6A429579DC64A8B80D5611C /* green-house.svg */ = {isa = PBXFileReference; name = "green-house.svg"; path = "../src/assets/vectors/icons/green-house.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE15A5DDA2544A47970D664D /* humidity-sensor.svg */ = {isa = PBXFileReference; name = "humidity-sensor.svg"; path = "../src/assets/vectors/icons/humidity-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32E01A8D9CB84F61BA3C55BD /* illuminance-sensor.svg */ = {isa = PBXFileReference; name = "illuminance-sensor.svg"; path = "../src/assets/vectors/icons/illuminance-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8043C922CF1D4A7492BF6F20 /* ir-remote.svg */ = {isa = PBXFileReference; name = "ir-remote.svg"; path = "../src/assets/vectors/icons/ir-remote.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5963AAF9AC244A22B2A2E901 /* ir-transmitter.svg */ = {isa = PBXFileReference; name = "ir-transmitter.svg"; path = "../src/assets/vectors/icons/ir-transmitter.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		825233347CE942DA8DA4827F /* kitchen.svg */ = {isa = PBXFileReference; name = "kitchen.svg"; path = "../src/assets/vectors/icons/kitchen.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CE53AC42E39E4F44A6DD3352 /* livingroom.svg */ = {isa = PBXFileReference; name = "livingroom.svg"; path = "../src/assets/vectors/icons/livingroom.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2533591DA1594C3992AFDE0F /* lock.svg */ = {isa = PBXFileReference; name = "lock.svg"; path = "../src/assets/vectors/icons/lock.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6FD68EFF5649485AB3EBDA83 /* moon-and-star.svg */ = {isa = PBXFileReference; name = "moon-and-star.svg"; path = "../src/assets/vectors/icons/moon-and-star.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A62F68E1D7FF4A74AF94693E /* motion-sensor.svg */ = {isa = PBXFileReference; name = "motion-sensor.svg"; path = "../src/assets/vectors/icons/motion-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1634C1B65B7F4D88BEE96AE8 /* movie-time.svg */ = {isa = PBXFileReference; name = "movie-time.svg"; path = "../src/assets/vectors/icons/movie-time.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3376CF639E7643E39A6F4EAC /* multi-sensor.svg */ = {isa = PBXFileReference; name = "multi-sensor.svg"; path = "../src/assets/vectors/icons/multi-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F4B7903357446FF914CFCBF /* office.svg */ = {isa = PBXFileReference; name = "office.svg"; path = "../src/assets/vectors/icons/office.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFE8F2FB922947C58E72B222 /* one-gang-relay-module.svg */ = {isa = PBXFileReference; name = "one-gang-relay-module.svg"; path = "../src/assets/vectors/icons/one-gang-relay-module.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B75E4E704EF64776B927E213 /* one-gang-switch.svg */ = {isa = PBXFileReference; name = "one-gang-switch.svg"; path = "../src/assets/vectors/icons/one-gang-switch.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80DE6DB71EB945A5AFCCD89B /* outlet.svg */ = {isa = PBXFileReference; name = "outlet.svg"; path = "../src/assets/vectors/icons/outlet.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F5880F77C584B0DB4A276CB /* raining-cloud.svg */ = {isa = PBXFileReference; name = "raining-cloud.svg"; path = "../src/assets/vectors/icons/raining-cloud.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		167E638B17F54C8A8BAB0286 /* relay.svg */ = {isa = PBXFileReference; name = "relay.svg"; path = "../src/assets/vectors/icons/relay.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A094BCD6078F4135BA785AE1 /* remote-control-alt.svg */ = {isa = PBXFileReference; name = "remote-control-alt.svg"; path = "../src/assets/vectors/icons/remote-control-alt.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE5E9569233E4BFA9D801655 /* remote-control.svg */ = {isa = PBXFileReference; name = "remote-control.svg"; path = "../src/assets/vectors/icons/remote-control.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C537DDC01623416095A16DE7 /* repeater.svg */ = {isa = PBXFileReference; name = "repeater.svg"; path = "../src/assets/vectors/icons/repeater.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F638A7949141403E852080B5 /* room.svg */ = {isa = PBXFileReference; name = "room.svg"; path = "../src/assets/vectors/icons/room.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C54D1EF1BF384052A88B7216 /* siheyuan.svg */ = {isa = PBXFileReference; name = "siheyuan.svg"; path = "../src/assets/vectors/icons/siheyuan.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4DAAB82A0FA44D0789BC9986 /* single-panel-ltr-curtain.svg */ = {isa = PBXFileReference; name = "single-panel-ltr-curtain.svg"; path = "../src/assets/vectors/icons/single-panel-ltr-curtain.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE3695FD7B2A44D085D4160A /* single-panel-rtl-curtain.svg */ = {isa = PBXFileReference; name = "single-panel-rtl-curtain.svg"; path = "../src/assets/vectors/icons/single-panel-rtl-curtain.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD3B8DE3C412414882546AC3 /* siren.svg */ = {isa = PBXFileReference; name = "siren.svg"; path = "../src/assets/vectors/icons/siren.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F80EE39D1AF4C119E9D3BE3 /* smoke-sensor.svg */ = {isa = PBXFileReference; name = "smoke-sensor.svg"; path = "../src/assets/vectors/icons/smoke-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC3DFE39A04E49EEA45A649E /* snow.svg */ = {isa = PBXFileReference; name = "snow.svg"; path = "../src/assets/vectors/icons/snow.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C8560662C494761B2D4B96E /* soil-sensor.svg */ = {isa = PBXFileReference; name = "soil-sensor.svg"; path = "../src/assets/vectors/icons/soil-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02156CC28B4F4907922E68AB /* store.svg */ = {isa = PBXFileReference; name = "store.svg"; path = "../src/assets/vectors/icons/store.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E685E149D9447DEA79409CA /* sunrise.svg */ = {isa = PBXFileReference; name = "sunrise.svg"; path = "../src/assets/vectors/icons/sunrise.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B779613C827C43709A093FEB /* sunset.svg */ = {isa = PBXFileReference; name = "sunset.svg"; path = "../src/assets/vectors/icons/sunset.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B0055FEED00E48B9AD84AC6B /* temperature-sensor.svg */ = {isa = PBXFileReference; name = "temperature-sensor.svg"; path = "../src/assets/vectors/icons/temperature-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAABF170D37B420D92A43E53 /* thermostat.svg */ = {isa = PBXFileReference; name = "thermostat.svg"; path = "../src/assets/vectors/icons/thermostat.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4EA988E3812C4DA7BA539776 /* three-gang-relay-module.svg */ = {isa = PBXFileReference; name = "three-gang-relay-module.svg"; path = "../src/assets/vectors/icons/three-gang-relay-module.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		517DE011AD88463CB724B876 /* three-gang-switch.svg */ = {isa = PBXFileReference; name = "three-gang-switch.svg"; path = "../src/assets/vectors/icons/three-gang-switch.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		55E267031A71457BA3D9AF27 /* tiny-house.svg */ = {isa = PBXFileReference; name = "tiny-house.svg"; path = "../src/assets/vectors/icons/tiny-house.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF24584CC0EE4283BA7AEA9E /* two-gang-relay-module.svg */ = {isa = PBXFileReference; name = "two-gang-relay-module.svg"; path = "../src/assets/vectors/icons/two-gang-relay-module.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F723497D9058467B89086110 /* two-gang-switch.svg */ = {isa = PBXFileReference; name = "two-gang-switch.svg"; path = "../src/assets/vectors/icons/two-gang-switch.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10030ED4BAD943ACB9F54F8A /* unknown.svg */ = {isa = PBXFileReference; name = "unknown.svg"; path = "../src/assets/vectors/icons/unknown.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E812E48FA2FB4B289E0273AF /* unlock.svg */ = {isa = PBXFileReference; name = "unlock.svg"; path = "../src/assets/vectors/icons/unlock.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F15CC49450A437095BA4E76 /* valve.svg */ = {isa = PBXFileReference; name = "valve.svg"; path = "../src/assets/vectors/icons/valve.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E2A083CA2414B5A919CA1EF /* vertical-curtain.svg */ = {isa = PBXFileReference; name = "vertical-curtain.svg"; path = "../src/assets/vectors/icons/vertical-curtain.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA3B93373BAA4723B0D91840 /* repeater-active.svg */ = {isa = PBXFileReference; name = "repeater-active.svg"; path = "../src/assets/vectors/narratives/repeater-active.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		504659A5541C433EA7EA64A6 /* repeater-inactive.svg */ = {isa = PBXFileReference; name = "repeater-inactive.svg"; path = "../src/assets/vectors/narratives/repeater-inactive.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D89A6EF9D4744E24A4B36AD3 /* smart-lady.svg */ = {isa = PBXFileReference; name = "smart-lady.svg"; path = "../src/assets/vectors/narratives/smart-lady.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		31455EA36F824A8C860B9FC9 /* activity-indicator.svg */ = {isa = PBXFileReference; name = "activity-indicator.svg"; path = "../src/assets/vectors/widget-elements/activity-indicator.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B2F2D9384FE484B895ECA55 /* checkbox-box.svg */ = {isa = PBXFileReference; name = "checkbox-box.svg"; path = "../src/assets/vectors/widget-elements/checkbox-box.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		55E9A29E81AD4E2BA2866381 /* checkbox-checked.svg */ = {isa = PBXFileReference; name = "checkbox-checked.svg"; path = "../src/assets/vectors/widget-elements/checkbox-checked.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6113A0EE430941B9B4F9485A /* checkbox-crossed.svg */ = {isa = PBXFileReference; name = "checkbox-crossed.svg"; path = "../src/assets/vectors/widget-elements/checkbox-crossed.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B785886513B436DBA7CC9F5 /* curtain-fabric.svg */ = {isa = PBXFileReference; name = "curtain-fabric.svg"; path = "../src/assets/vectors/widget-elements/curtain-fabric.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2E2BDDB7E724D459D77EC70 /* lock-body.svg */ = {isa = PBXFileReference; name = "lock-body.svg"; path = "../src/assets/vectors/widget-elements/lock-body.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3D25DC9BCC3480D92BA4482 /* lock-shackle.svg */ = {isa = PBXFileReference; name = "lock-shackle.svg"; path = "../src/assets/vectors/widget-elements/lock-shackle.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41500E39076245E5BC22D373 /* window.svg */ = {isa = PBXFileReference; name = "window.svg"; path = "../src/assets/vectors/widget-elements/window.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7EF58CAF79794F428F9199EC /* remote-button-down.svg */ = {isa = PBXFileReference; name = "remote-button-down.svg"; path = "../src/assets/vectors/widget-elements/remote-button-down.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A2BB30233124A1684D843F7 /* remote-button-left.svg */ = {isa = PBXFileReference; name = "remote-button-left.svg"; path = "../src/assets/vectors/widget-elements/remote-button-left.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F6F9668600EC4B7EB694D7D8 /* remote-button-ok.svg */ = {isa = PBXFileReference; name = "remote-button-ok.svg"; path = "../src/assets/vectors/widget-elements/remote-button-ok.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FE487CF6C6C44CBAD3331BA /* remote-button-right.svg */ = {isa = PBXFileReference; name = "remote-button-right.svg"; path = "../src/assets/vectors/widget-elements/remote-button-right.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B064D0219D794FE3A94DCEE1 /* remote-button-up.svg */ = {isa = PBXFileReference; name = "remote-button-up.svg"; path = "../src/assets/vectors/widget-elements/remote-button-up.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2FFDD464EE942A8A53981C7 /* thermostat-ring.svg */ = {isa = PBXFileReference; name = "thermostat-ring.svg"; path = "../src/assets/vectors/widget-elements/thermostat-ring.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		051CC05DC9AA4FEB9F85F16D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22218719AC0643318C015B8B /* water-leakage-sensor.svg */ = {isa = PBXFileReference; name = "water-leakage-sensor.svg"; path = "../src/assets/vectors/icons/water-leakage-sensor.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E880E1A9C5946F5B2C1ADC7 /* sun.svg */ = {isa = PBXFileReference; name = "sun.svg"; path = "../src/assets/vectors/actions/sun.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC72FB9D9E4745ECB195756F /* power-meter.svg */ = {isa = PBXFileReference; name = "power-meter.svg"; path = "../src/assets/vectors/icons/power-meter.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DBA051CBE2AA481EB744FA7F /* bar-chart.svg */ = {isa = PBXFileReference; name = "bar-chart.svg"; path = "../src/assets/vectors/actions/bar-chart.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3077C6F4C3B940BB847AB6FD /* line-chart.svg */ = {isa = PBXFileReference; name = "line-chart.svg"; path = "../src/assets/vectors/actions/line-chart.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F97CA569EC6F47D190AF23CC /* no-camera.svg */ = {isa = PBXFileReference; name = "no-camera.svg"; path = "../src/assets/vectors/actions/no-camera.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D766EA61719E47FF8EB2E443 /* street-light.svg */ = {isa = PBXFileReference; name = "street-light.svg"; path = "../src/assets/vectors/icons/street-light.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07E7CACDEB11484C8380CCCE /* bell.svg */ = {isa = PBXFileReference; name = "bell.svg"; path = "../src/assets/vectors/actions/bell.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9672694E8D554C028B697376 /* header-bell.svg */ = {isa = PBXFileReference; name = "header-bell.svg"; path = "../src/assets/vectors/actions/header-bell.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9DDB341742C466896FF9B73 /* sms.svg */ = {isa = PBXFileReference; name = "sms.svg"; path = "../src/assets/vectors/actions/sms.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-linkap-linkapTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-linkap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* linkapTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* linkapTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = linkapTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* linkap */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = linkap;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-linkap.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-linkap-linkapTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* linkap */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* linkapTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F5CFB68D09254232855B0B66 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* linkap.app */,
+				00E356EE1AD99517003FC87E /* linkapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-linkap.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-linkap.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-linkap-linkapTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-linkap-linkapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5CFB68D09254232855B0B66 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				52D5C3C9B0E1476A95BB2286 /* IRANSansFaNum-Black.ttf */,
+				3B050AB0EB8A415EB9635D8B /* IRANSansFaNum-Bold.ttf */,
+				D8A7185FF2DF4937B8DA76BB /* IRANSansFaNum-Light.ttf */,
+				2BBB78F883374876A900CD2A /* IRANSansFaNum-Medium.ttf */,
+				1B4CF104AF144D41B8842506 /* IRANSansFaNum-Regular.ttf */,
+				A7D9E598B8BA4A6FB325EBC6 /* IRANSansFaNum-UltraLight.ttf */,
+				35110911366F48EAAE52DB6F /* arrow-left.svg */,
+				8015DD8C1B3449DEB00EFA45 /* arrow-right.svg */,
+				413FE8813A074552886087CC /* back.svg */,
+				EDF49E05C2544019A7EDC910 /* battery.svg */,
+				0EE1C736FA5F44E0BF91E607 /* chart.svg */,
+				FA18B5B3AD4B46B7A9D533BC /* clock.svg */,
+				6CD75AEA08334EA08628361B /* close.svg */,
+				4BBF1DE947AE4B78AD3E265F /* device.svg */,
+				1452630A63D04FF9ADF0D7C2 /* drop.svg */,
+				A5179C0754214055B844BA46 /* edit.svg */,
+				50DC35B6F4D54F57AF5CA521 /* error.svg */,
+				1566E03F5BDC4447A5DB3A88 /* exit.svg */,
+				EE6395622EE04D45B8A751BA /* fan-auto.svg */,
+				B3A90444DC5249AA87A7C0A2 /* fan-high.svg */,
+				E923A1CAA0354B6CAA29CF80 /* fan-low.svg */,
+				4B62CC3C49AF487F89BD60A0 /* fan-medium.svg */,
+				DFA84475121A4C84ABA25F3E /* fan.svg */,
+				E639984CEC93400FBE498484 /* gallery.svg */,
+				9ECBC4A86138421DB88AD355 /* graph.svg */,
+				8D1F70BA346C478DBE7F52F6 /* heart.svg */,
+				6B2CE7F656F84F1E9E8C77B4 /* home.svg */,
+				B4D58FEC49D04BC2BBDF8BE0 /* input.svg */,
+				C131FF9045454A27B6EF42BF /* invisible.svg */,
+				F955D0185B8144B6BB446EE9 /* kebab-menu.svg */,
+				244036C682FA459F944D154F /* keyboard.svg */,
+				F9CC1C94CBA04ED3BDD1DC97 /* meatballs-menu.svg */,
+				ED94BB38755B4BE19EEE998B /* minus.svg */,
+				5B4101E4C34A4F38A5810333 /* pause.svg */,
+				4D8B15EB0B88448FA63AE045 /* phone.svg */,
+				77E4C93B44E0478AAD8FB4E5 /* play.svg */,
+				83453E9532AB4A08B61AB7E0 /* plus-skinny.svg */,
+				8B13CF9CCA254840AE815D8C /* plus-thick.svg */,
+				DAFB31B489244751B1508409 /* power-rounded.svg */,
+				85A5E40A10B546FE9C930419 /* power-squared.svg */,
+				555605ECC11B4F75974A605D /* profile.svg */,
+				ACA2576FE6834AB498600975 /* reload.svg */,
+				27ADF13CFCEE4EEDA342143F /* routine.svg */,
+				48599CF117854C9DBA65D3A2 /* run.svg */,
+				6698B3A05B2E418BB952EC87 /* scan.svg */,
+				F008DBD394464F24B91BAA74 /* search.svg */,
+				985CCC72DDE44887A279CBAF /* secured-entry.svg */,
+				C01A457FBEF2431C9BF29876 /* settings.svg */,
+				749E5BF9E62D4DD48008FF04 /* snowflake.svg */,
+				1BFD716655C244F7BB62834E /* subtle-up-arrow.svg */,
+				9F5E06AF10DF4F53BC8A7FE7 /* success.svg */,
+				8C23D687C6414ADB9C25BF9A /* sun-overlaid.svg */,
+				B067603BC9B346F59A197B90 /* trash.svg */,
+				9E93A7B02AE540008DBFD894 /* visible.svg */,
+				6F27342B458B4A36A334F39B /* ac-controller.svg */,
+				D09ED7B242B24367B4002661 /* air-quality-sensor.svg */,
+				54F0950B000B40A8BA4B88AB /* apartment.svg */,
+				F19FB0590D9A4AE2A8E709D9 /* bathroom.svg */,
+				471F9CD49A8C455ABA8BF64F /* bedroom.svg */,
+				9C6643496BC54C529C1248F6 /* co-sensor.svg */,
+				A17ADFAA477E4371AC134794 /* curvey-apartment.svg */,
+				A677A7D175414B88BFBE79CD /* dimmer.svg */,
+				981B95D04841488BBB7DA756 /* door-sensor.svg */,
+				5A980B2F2C6B426796B6FD59 /* double-panel-curtain.svg */,
+				416FC25CA1E648A8B026B899 /* electricity-meter.svg */,
+				CBA6FDC5C5014FF5B30ADC1A /* gable-over-gable-roof-house.svg */,
+				4451088416CC40F59A5012ED /* gas-sensor.svg */,
+				C279433B0E13419F8DF76D72 /* gateway-hub.svg */,
+				C6A429579DC64A8B80D5611C /* green-house.svg */,
+				DE15A5DDA2544A47970D664D /* humidity-sensor.svg */,
+				32E01A8D9CB84F61BA3C55BD /* illuminance-sensor.svg */,
+				8043C922CF1D4A7492BF6F20 /* ir-remote.svg */,
+				5963AAF9AC244A22B2A2E901 /* ir-transmitter.svg */,
+				825233347CE942DA8DA4827F /* kitchen.svg */,
+				CE53AC42E39E4F44A6DD3352 /* livingroom.svg */,
+				2533591DA1594C3992AFDE0F /* lock.svg */,
+				6FD68EFF5649485AB3EBDA83 /* moon-and-star.svg */,
+				A62F68E1D7FF4A74AF94693E /* motion-sensor.svg */,
+				1634C1B65B7F4D88BEE96AE8 /* movie-time.svg */,
+				3376CF639E7643E39A6F4EAC /* multi-sensor.svg */,
+				6F4B7903357446FF914CFCBF /* office.svg */,
+				BFE8F2FB922947C58E72B222 /* one-gang-relay-module.svg */,
+				B75E4E704EF64776B927E213 /* one-gang-switch.svg */,
+				80DE6DB71EB945A5AFCCD89B /* outlet.svg */,
+				0F5880F77C584B0DB4A276CB /* raining-cloud.svg */,
+				167E638B17F54C8A8BAB0286 /* relay.svg */,
+				A094BCD6078F4135BA785AE1 /* remote-control-alt.svg */,
+				DE5E9569233E4BFA9D801655 /* remote-control.svg */,
+				C537DDC01623416095A16DE7 /* repeater.svg */,
+				F638A7949141403E852080B5 /* room.svg */,
+				C54D1EF1BF384052A88B7216 /* siheyuan.svg */,
+				4DAAB82A0FA44D0789BC9986 /* single-panel-ltr-curtain.svg */,
+				BE3695FD7B2A44D085D4160A /* single-panel-rtl-curtain.svg */,
+				FD3B8DE3C412414882546AC3 /* siren.svg */,
+				2F80EE39D1AF4C119E9D3BE3 /* smoke-sensor.svg */,
+				FC3DFE39A04E49EEA45A649E /* snow.svg */,
+				1C8560662C494761B2D4B96E /* soil-sensor.svg */,
+				02156CC28B4F4907922E68AB /* store.svg */,
+				8E685E149D9447DEA79409CA /* sunrise.svg */,
+				B779613C827C43709A093FEB /* sunset.svg */,
+				B0055FEED00E48B9AD84AC6B /* temperature-sensor.svg */,
+				BAABF170D37B420D92A43E53 /* thermostat.svg */,
+				4EA988E3812C4DA7BA539776 /* three-gang-relay-module.svg */,
+				517DE011AD88463CB724B876 /* three-gang-switch.svg */,
+				55E267031A71457BA3D9AF27 /* tiny-house.svg */,
+				AF24584CC0EE4283BA7AEA9E /* two-gang-relay-module.svg */,
+				F723497D9058467B89086110 /* two-gang-switch.svg */,
+				10030ED4BAD943ACB9F54F8A /* unknown.svg */,
+				E812E48FA2FB4B289E0273AF /* unlock.svg */,
+				7F15CC49450A437095BA4E76 /* valve.svg */,
+				4E2A083CA2414B5A919CA1EF /* vertical-curtain.svg */,
+				CA3B93373BAA4723B0D91840 /* repeater-active.svg */,
+				504659A5541C433EA7EA64A6 /* repeater-inactive.svg */,
+				D89A6EF9D4744E24A4B36AD3 /* smart-lady.svg */,
+				31455EA36F824A8C860B9FC9 /* activity-indicator.svg */,
+				1B2F2D9384FE484B895ECA55 /* checkbox-box.svg */,
+				55E9A29E81AD4E2BA2866381 /* checkbox-checked.svg */,
+				6113A0EE430941B9B4F9485A /* checkbox-crossed.svg */,
+				5B785886513B436DBA7CC9F5 /* curtain-fabric.svg */,
+				E2E2BDDB7E724D459D77EC70 /* lock-body.svg */,
+				D3D25DC9BCC3480D92BA4482 /* lock-shackle.svg */,
+				41500E39076245E5BC22D373 /* window.svg */,
+				7EF58CAF79794F428F9199EC /* remote-button-down.svg */,
+				2A2BB30233124A1684D843F7 /* remote-button-left.svg */,
+				F6F9668600EC4B7EB694D7D8 /* remote-button-ok.svg */,
+				5FE487CF6C6C44CBAD3331BA /* remote-button-right.svg */,
+				B064D0219D794FE3A94DCEE1 /* remote-button-up.svg */,
+				C2FFDD464EE942A8A53981C7 /* thermostat-ring.svg */,
+				051CC05DC9AA4FEB9F85F16D /* Roboto-Medium.ttf */,
+				22218719AC0643318C015B8B /* water-leakage-sensor.svg */,
+				3E880E1A9C5946F5B2C1ADC7 /* sun.svg */,
+				BC72FB9D9E4745ECB195756F /* power-meter.svg */,
+				DBA051CBE2AA481EB744FA7F /* bar-chart.svg */,
+				3077C6F4C3B940BB847AB6FD /* line-chart.svg */,
+				F97CA569EC6F47D190AF23CC /* no-camera.svg */,
+				D766EA61719E47FF8EB2E443 /* street-light.svg */,
+				07E7CACDEB11484C8380CCCE /* bell.svg */,
+				9672694E8D554C028B697376 /* header-bell.svg */,
+				D9DDB341742C466896FF9B73 /* sms.svg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* linkapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "linkapTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = linkapTests;
+			productName = linkapTests;
+			productReference = 00E356EE1AD99517003FC87E /* linkapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* linkap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "linkap" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = linkap;
+			productName = linkap;
+			productReference = 13B07F961A680F5B00A75B9A /* linkap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "linkap" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* linkap */,
+				00E356ED1AD99517003FC87E /* linkapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				785ADC8C89664863AA0F0018 /* IRANSansFaNum-Black.ttf in Resources */,
+				459736C76ED84386AC365972 /* IRANSansFaNum-Bold.ttf in Resources */,
+				28E4432A50F34D14B53D2A0A /* IRANSansFaNum-Light.ttf in Resources */,
+				D78BBE739E944EF59536D798 /* IRANSansFaNum-Medium.ttf in Resources */,
+				33B8A61BDE3D4FCE9CCF2247 /* IRANSansFaNum-Regular.ttf in Resources */,
+				CDA00DDCE35E404D84562FE8 /* IRANSansFaNum-UltraLight.ttf in Resources */,
+				456DD48899BF41E5A537BC5D /* arrow-left.svg in Resources */,
+				05108A8EAA6B4102ACB058D9 /* arrow-right.svg in Resources */,
+				D7DF18FB029441E69D0A825C /* back.svg in Resources */,
+				CC57D423D3A6417C8D66E37F /* battery.svg in Resources */,
+				173B2840AAAD45DB8B249F28 /* chart.svg in Resources */,
+				963E86DCD4414C4AB4E11B1A /* clock.svg in Resources */,
+				E285C8A5ADDC4B35BF6ABB24 /* close.svg in Resources */,
+				96489F7FB5DB4A0FBD57ACFE /* device.svg in Resources */,
+				25F550A02CE24ED4AEB9C884 /* drop.svg in Resources */,
+				FCEFDCACFADD46658A971931 /* edit.svg in Resources */,
+				720AD88875FA4F498CC2CB42 /* error.svg in Resources */,
+				65642614357B403B844DA9F4 /* exit.svg in Resources */,
+				A63F53255B9D45D4AC34840D /* fan-auto.svg in Resources */,
+				E65BD87551AF4C41AFE1CE08 /* fan-high.svg in Resources */,
+				6AA24D8BAFAF4C1DB71C507D /* fan-low.svg in Resources */,
+				A6BDAD95D2884EC59ADD890C /* fan-medium.svg in Resources */,
+				E3D0D68A96094FC693A9358C /* fan.svg in Resources */,
+				642C45CD58E946D28DD1D43E /* gallery.svg in Resources */,
+				7684C0B8C72C4B5AA8AC2017 /* graph.svg in Resources */,
+				A95EFA7CCC32462F99410A8F /* heart.svg in Resources */,
+				57C9FBA8185D442B8FAAE14A /* home.svg in Resources */,
+				426BB9681FED4DE0AB276355 /* input.svg in Resources */,
+				0D84C242FA03485398C7F48F /* invisible.svg in Resources */,
+				FF9B205113AD440DBF6C343D /* kebab-menu.svg in Resources */,
+				1BB73A5BD7D9491596C87DD8 /* keyboard.svg in Resources */,
+				B9C1660FEBC64776A648A27D /* meatballs-menu.svg in Resources */,
+				6A6F73E2BE0740889EABEB26 /* minus.svg in Resources */,
+				544939188350472D8247072B /* pause.svg in Resources */,
+				9696724BC7DF486A9F6AF457 /* phone.svg in Resources */,
+				617AE38D9E5343A5A97D7E0C /* play.svg in Resources */,
+				24979D0C45C749FFBFADF505 /* plus-skinny.svg in Resources */,
+				4DB5C43C2AAD4BEEAD4EC0E4 /* plus-thick.svg in Resources */,
+				988BEF99BEC5437E9FBF8BC8 /* power-rounded.svg in Resources */,
+				61518F6F73C8426B8F00FA94 /* power-squared.svg in Resources */,
+				5A11F5BD6B474134AA90D8DF /* profile.svg in Resources */,
+				2D2587238A8E495696B649D9 /* reload.svg in Resources */,
+				AD374EAEED5F4E1DAFC0F8A4 /* routine.svg in Resources */,
+				4CE4E8BA46034B908B331FE9 /* run.svg in Resources */,
+				C0A05D3A6C83413391DDA1AA /* scan.svg in Resources */,
+				856E05AF8CBB4AC096FCD78B /* search.svg in Resources */,
+				DCB743F0EFDC4E6093A29021 /* secured-entry.svg in Resources */,
+				E83D8F395DA74EC581477B2C /* settings.svg in Resources */,
+				2805DDF5FCDF4C9790336F95 /* snowflake.svg in Resources */,
+				41FA598A6D5C4B3AA2C93954 /* subtle-up-arrow.svg in Resources */,
+				B538DC50893D47C099AAD583 /* success.svg in Resources */,
+				1F4AF008936F40F9AA94614F /* sun-overlaid.svg in Resources */,
+				F794071D256E4FDF8BB4CB09 /* trash.svg in Resources */,
+				571ED3692C704D289890A2F4 /* visible.svg in Resources */,
+				98C87C0617EC447495AD8A2D /* ac-controller.svg in Resources */,
+				8A1C65191968477BBAF0F6BF /* air-quality-sensor.svg in Resources */,
+				0E4736E6D7A24BC5A6F27652 /* apartment.svg in Resources */,
+				53652E011D6341389658EE3F /* bathroom.svg in Resources */,
+				EA7A2C4FA6534A81879E741D /* bedroom.svg in Resources */,
+				50CC229D21704EB3960C3ECD /* co-sensor.svg in Resources */,
+				EA75DD46650C4DAC87A79261 /* curvey-apartment.svg in Resources */,
+				D35D3D84538B45319D78F4FB /* dimmer.svg in Resources */,
+				8CCF81BC4FD14BF5A8B01A54 /* door-sensor.svg in Resources */,
+				98A7913B50EA494E98092E09 /* double-panel-curtain.svg in Resources */,
+				8BCE0468CEC1463EA18B75B2 /* electricity-meter.svg in Resources */,
+				DCA60BAC2D294274A1BE1FA4 /* gable-over-gable-roof-house.svg in Resources */,
+				4F7783294E284629B9AE3DEB /* gas-sensor.svg in Resources */,
+				7DE2CDB68BB94B8EB2EAA5EB /* gateway-hub.svg in Resources */,
+				B48854DCB8774802B4C61BCC /* green-house.svg in Resources */,
+				0BFFC4A59E5D407C8B00A56A /* humidity-sensor.svg in Resources */,
+				FB398AB466BE41AA9BF43830 /* illuminance-sensor.svg in Resources */,
+				E1DCBC9C3E0C4380952F1B2B /* ir-remote.svg in Resources */,
+				585691CB4E564C4F9BA1B28D /* ir-transmitter.svg in Resources */,
+				C6BC641D0E494A2FBD67A8DD /* kitchen.svg in Resources */,
+				DCD7A18151154BE0856594ED /* livingroom.svg in Resources */,
+				A6D9AC76F0BD493C8F3C52EF /* lock.svg in Resources */,
+				66E87AF027E04ADE98B71A00 /* moon-and-star.svg in Resources */,
+				8986B68627C24A06AD56BD08 /* motion-sensor.svg in Resources */,
+				AE1411EB070B4B448A4FDB0D /* movie-time.svg in Resources */,
+				74C0F495A6944752A9798962 /* multi-sensor.svg in Resources */,
+				305CAD84611545298B71E418 /* office.svg in Resources */,
+				F21C3960A2BA4AE49566268A /* one-gang-relay-module.svg in Resources */,
+				E637972995E540BA9855BCA6 /* one-gang-switch.svg in Resources */,
+				B16BE929ED7C46999772A119 /* outlet.svg in Resources */,
+				F745DAEB07BC4E51A2044224 /* raining-cloud.svg in Resources */,
+				3CAA70C904DC47B58FCBD0AE /* relay.svg in Resources */,
+				D359317C0075457B89F7418C /* remote-control-alt.svg in Resources */,
+				DDB4418D68854778AC10303F /* remote-control.svg in Resources */,
+				558C5BBD6AD44AEE9ABAB2D3 /* repeater.svg in Resources */,
+				124824BC0E11436A9380DE39 /* room.svg in Resources */,
+				D008F800CD4F4B268B8E854B /* siheyuan.svg in Resources */,
+				4448A121F0274F73A6ED677E /* single-panel-ltr-curtain.svg in Resources */,
+				8AA10FF570F3484781902076 /* single-panel-rtl-curtain.svg in Resources */,
+				F431540CF45A4759BCDE90DC /* siren.svg in Resources */,
+				CCC7A585171743688A2BF77C /* smoke-sensor.svg in Resources */,
+				C1E0C4A0D2B040B98FD2D6D0 /* snow.svg in Resources */,
+				94048CE8DE7849BD94A56629 /* soil-sensor.svg in Resources */,
+				D98485E6C87C42ECB08533ED /* store.svg in Resources */,
+				D41ADA975BE1414B860B08EC /* sunrise.svg in Resources */,
+				A23943AFF2F14A2B90040ADB /* sunset.svg in Resources */,
+				3D9C8C155FDC4325AFF81A46 /* temperature-sensor.svg in Resources */,
+				9E3BDDBFE1204706B940DA5D /* thermostat.svg in Resources */,
+				15B12C730A1245D4A7092333 /* three-gang-relay-module.svg in Resources */,
+				F9F8707972E4424D80C5F15D /* three-gang-switch.svg in Resources */,
+				57E64D6D91F44114B130F1C5 /* tiny-house.svg in Resources */,
+				12D3A3477641428785E0BDE5 /* two-gang-relay-module.svg in Resources */,
+				62E4A16113D14AE08063668D /* two-gang-switch.svg in Resources */,
+				D4A0F63D35454256AA07FDF1 /* unknown.svg in Resources */,
+				93DC3825C55244BAA0382692 /* unlock.svg in Resources */,
+				366FF822D9CC4D3A998852E1 /* valve.svg in Resources */,
+				77836613055C44A6B9B8AC0E /* vertical-curtain.svg in Resources */,
+				34883ED3548B42A5B084EC25 /* repeater-active.svg in Resources */,
+				F49063FE74FE479799D9DFD9 /* repeater-inactive.svg in Resources */,
+				7B641AE108E44D77B3CBAC8B /* smart-lady.svg in Resources */,
+				192D48D948F8406F9E27AD58 /* activity-indicator.svg in Resources */,
+				07C23493D45446E792A93AA3 /* checkbox-box.svg in Resources */,
+				8B02A90737124CC9A173BCA0 /* checkbox-checked.svg in Resources */,
+				97A97BC9816B47428E8762DB /* checkbox-crossed.svg in Resources */,
+				97BA7EC2D89D42B9B1CE273A /* curtain-fabric.svg in Resources */,
+				217394F80710445FA4CD607C /* lock-body.svg in Resources */,
+				F167FF5D968F49EA97E729DC /* lock-shackle.svg in Resources */,
+				E7B72AFEE94640D1A5E1D6E0 /* window.svg in Resources */,
+				0A649903CDC94639B93519C9 /* remote-button-down.svg in Resources */,
+				1892A6A2815241D6A7E77A2E /* remote-button-left.svg in Resources */,
+				0C23E2B48BFA46448094435E /* remote-button-ok.svg in Resources */,
+				8D083DD8A8FC4AD586ECE0D6 /* remote-button-right.svg in Resources */,
+				86F8A86AB0B04EFBB7E981C1 /* remote-button-up.svg in Resources */,
+				70E3542F1D7E4ADA805E5B6E /* thermostat-ring.svg in Resources */,
+				7DB35CD84E1F426DA13C8EAA /* Roboto-Medium.ttf in Resources */,
+				9A2C1F2DEB1D4583989D1572 /* water-leakage-sensor.svg in Resources */,
+				F381F39ABCA745ECA6309D5F /* sun.svg in Resources */,
+				9847B2DBE92D4901A8C553E5 /* power-meter.svg in Resources */,
+				FA91D2A695C34581877C34F7 /* bar-chart.svg in Resources */,
+				7DB8E51112AF48DCBC0AF858 /* line-chart.svg in Resources */,
+				34360D10E54F465D92FB2D8E /* no-camera.svg in Resources */,
+				0387C4089C554FB79AB73EE5 /* street-light.svg in Resources */,
+				0EAE4ECB459246A389DD9F2A /* bell.svg in Resources */,
+				6A4F545AD54B414B8E922791 /* header-bell.svg in Resources */,
+				A365BF25FD8D4960A86593DC /* sms.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linkap/Pods-linkap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linkap/Pods-linkap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linkap/Pods-linkap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-linkap-linkapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-linkap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linkap-linkapTests/Pods-linkap-linkapTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linkap-linkapTests/Pods-linkap-linkapTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linkap-linkapTests/Pods-linkap-linkapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linkap/Pods-linkap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linkap/Pods-linkap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linkap/Pods-linkap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linkap-linkapTests/Pods-linkap-linkapTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-linkap-linkapTests/Pods-linkap-linkapTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-linkap-linkapTests/Pods-linkap-linkapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* linkapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* linkap */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-linkap-linkapTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = linkapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linkap.app/linkap";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-linkap-linkapTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = linkapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linkap.app/linkap";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-linkap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = linkap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = linkap;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-linkap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = linkap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = linkap;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "linkapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "linkap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "linkap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

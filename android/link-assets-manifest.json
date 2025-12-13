@@ -1,0 +1,561 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/IRANSansFaNum-Black.ttf",
+      "sha1": "5c2fc91896c324661a18e30f1fe9cea78ba5ac37"
+    },
+    {
+      "path": "src/assets/fonts/IRANSansFaNum-Bold.ttf",
+      "sha1": "5bb79755b46c43122afab1ca82fc18f2c868afdd"
+    },
+    {
+      "path": "src/assets/fonts/IRANSansFaNum-Light.ttf",
+      "sha1": "2b0f36334500c6d8c6cf39dd271cd660c64da97e"
+    },
+    {
+      "path": "src/assets/fonts/IRANSansFaNum-Medium.ttf",
+      "sha1": "3a322f450b5f8453c9f40d31ce3eaa96501b96c0"
+    },
+    {
+      "path": "src/assets/fonts/IRANSansFaNum-Regular.ttf",
+      "sha1": "b0822cf45c84aeb67519877bac099ef729c98462"
+    },
+    {
+      "path": "src/assets/fonts/IRANSansFaNum-UltraLight.ttf",
+      "sha1": "795f96960c072e0341fd984d3124613888054c81"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Medium.ttf",
+      "sha1": "fa5192203f85ddb667579e1bdf26f12098bb873b"
+    },
+    {
+      "path": "src/assets/vectors/actions/arrow-left.svg",
+      "sha1": "b33f03f9a782ab561cf6612e02f3cb791b0b4459"
+    },
+    {
+      "path": "src/assets/vectors/actions/arrow-right.svg",
+      "sha1": "83df440402702089bb47aee90455199ba9ec43ba"
+    },
+    {
+      "path": "src/assets/vectors/actions/back.svg",
+      "sha1": "04473154b7baba11914a0f1501b0ec86e7ceff12"
+    },
+    {
+      "path": "src/assets/vectors/actions/bar-chart.svg",
+      "sha1": "8f3559d65c374b51ed2a702d05deb771e6fcadcb"
+    },
+    {
+      "path": "src/assets/vectors/actions/battery.svg",
+      "sha1": "76eed1e8ea9045de880ed61127023695df5c9bf1"
+    },
+    {
+      "path": "src/assets/vectors/actions/bell.svg",
+      "sha1": "22084a4952a81cdcd6da2de7913d18e527988baf"
+    },
+    {
+      "path": "src/assets/vectors/actions/chart.svg",
+      "sha1": "ea3ded97c1207122eecce24ec6fb1908bde25c1b"
+    },
+    {
+      "path": "src/assets/vectors/actions/clock.svg",
+      "sha1": "e862a4410aa77a96804a6874b479dc65fdb83c4c"
+    },
+    {
+      "path": "src/assets/vectors/actions/close.svg",
+      "sha1": "776bfc7176ee5f78f0ac0d2d87f0eedcacb4f782"
+    },
+    {
+      "path": "src/assets/vectors/actions/device.svg",
+      "sha1": "dc65ad9704c0ca03bc499470cc36c1530fd395c2"
+    },
+    {
+      "path": "src/assets/vectors/actions/drop.svg",
+      "sha1": "38b8cbc8f0c960972b437b1dddb069b45d73f732"
+    },
+    {
+      "path": "src/assets/vectors/actions/edit.svg",
+      "sha1": "20cdf4e7b496c20a822f5dce3209a2a608b2591e"
+    },
+    {
+      "path": "src/assets/vectors/actions/error.svg",
+      "sha1": "b6e1cf44b863b95a7b1a7b1a905e15e424367d50"
+    },
+    {
+      "path": "src/assets/vectors/actions/exit.svg",
+      "sha1": "7521ccbc702f577d564758e5a887c529a5de9d5e"
+    },
+    {
+      "path": "src/assets/vectors/actions/fan-auto.svg",
+      "sha1": "9efa6a5a4c2e7e0c259737e71f706183dca0a37b"
+    },
+    {
+      "path": "src/assets/vectors/actions/fan-high.svg",
+      "sha1": "637229a2b4a59bf8c86590a5fcef9f8479830b54"
+    },
+    {
+      "path": "src/assets/vectors/actions/fan-low.svg",
+      "sha1": "f936f51ada329ffcf8197bd68d2070c2d4f3bd15"
+    },
+    {
+      "path": "src/assets/vectors/actions/fan-medium.svg",
+      "sha1": "157bce7860f79658f3f25b816f93d790659b9349"
+    },
+    {
+      "path": "src/assets/vectors/actions/fan.svg",
+      "sha1": "d844f4de78eb0d2466922f99a30de33a073ddfdf"
+    },
+    {
+      "path": "src/assets/vectors/actions/gallery.svg",
+      "sha1": "7fefdfdedde1718354699a6714e0084ff0408d54"
+    },
+    {
+      "path": "src/assets/vectors/actions/graph.svg",
+      "sha1": "aeb0ef49c6e623850f56dc72effc3a3f3ad0d538"
+    },
+    {
+      "path": "src/assets/vectors/actions/header-bell.svg",
+      "sha1": "1892543696fe7d53b838fd549009fca5dc790c76"
+    },
+    {
+      "path": "src/assets/vectors/actions/heart.svg",
+      "sha1": "1e2a98b1b41195048850577e000d6edbf6382ddc"
+    },
+    {
+      "path": "src/assets/vectors/actions/home.svg",
+      "sha1": "87749a5bb1e614611f89cacd3225232d1612e0d7"
+    },
+    {
+      "path": "src/assets/vectors/actions/input.svg",
+      "sha1": "02dfa42d15be72a19db4c8c8dfd534b0a650f04a"
+    },
+    {
+      "path": "src/assets/vectors/actions/invisible.svg",
+      "sha1": "16489537b37b3e64f8cc9688a7a61f1f073581ef"
+    },
+    {
+      "path": "src/assets/vectors/actions/kebab-menu.svg",
+      "sha1": "6c6c4b1e6858e4465015efb36bd6be872363a3ad"
+    },
+    {
+      "path": "src/assets/vectors/actions/keyboard.svg",
+      "sha1": "324ab9c5eecdc05144b4d09f0d10aeb6c82d7ba8"
+    },
+    {
+      "path": "src/assets/vectors/actions/line-chart.svg",
+      "sha1": "5d82e65670e88273cef2519ca381196536801cad"
+    },
+    {
+      "path": "src/assets/vectors/actions/meatballs-menu.svg",
+      "sha1": "32936f6a4f8e74fe89cc8ffb8542e2deccc73092"
+    },
+    {
+      "path": "src/assets/vectors/actions/minus.svg",
+      "sha1": "20d52070a4f074670d7a20cdb9e9568a64ee9a57"
+    },
+    {
+      "path": "src/assets/vectors/actions/no-camera.svg",
+      "sha1": "63ed35246ae52a21118639898c2a3758693c1f62"
+    },
+    {
+      "path": "src/assets/vectors/actions/pause.svg",
+      "sha1": "0abeedb269696793fe47f634b36b928621adf2df"
+    },
+    {
+      "path": "src/assets/vectors/actions/phone.svg",
+      "sha1": "096a8e871ee72809a2b4428211866fa777efd295"
+    },
+    {
+      "path": "src/assets/vectors/actions/play.svg",
+      "sha1": "e034adb638ffacfd018fd15c5f21a0cbfae4bf5f"
+    },
+    {
+      "path": "src/assets/vectors/actions/plus-skinny.svg",
+      "sha1": "99c6452039299d6a478ef77cd1d6543fd22b8ac2"
+    },
+    {
+      "path": "src/assets/vectors/actions/plus-thick.svg",
+      "sha1": "22005e3a8addc23bb74403fd1ddf0e1bdfe4c5ad"
+    },
+    {
+      "path": "src/assets/vectors/actions/power-rounded.svg",
+      "sha1": "80be72d6be0afd4bc4fff4419d23a9a3285efa7b"
+    },
+    {
+      "path": "src/assets/vectors/actions/power-squared.svg",
+      "sha1": "54900ab201b11a8bc87d08db4ea551c2a758a9f8"
+    },
+    {
+      "path": "src/assets/vectors/actions/profile.svg",
+      "sha1": "a2fb00fd9305ad4229768b4ce48533f79368de19"
+    },
+    {
+      "path": "src/assets/vectors/actions/reload.svg",
+      "sha1": "43c3ab78b66d49313dd4b89d236a14e14ec544bd"
+    },
+    {
+      "path": "src/assets/vectors/actions/routine.svg",
+      "sha1": "ac3941f263d02bd3c310e9d29c929bd7d65cd822"
+    },
+    {
+      "path": "src/assets/vectors/actions/run.svg",
+      "sha1": "125f4d9394f6fb9441a03418e1dadeabfa5ac388"
+    },
+    {
+      "path": "src/assets/vectors/actions/scan.svg",
+      "sha1": "17674df2dd7a74798cfe789eeba3e19d89129140"
+    },
+    {
+      "path": "src/assets/vectors/actions/search.svg",
+      "sha1": "206ba135de8197fa290af8013595f9b9bfe438ec"
+    },
+    {
+      "path": "src/assets/vectors/actions/secured-entry.svg",
+      "sha1": "e6cc4fd0d531292069af0bf714ba52a1bba7f9a6"
+    },
+    {
+      "path": "src/assets/vectors/actions/settings.svg",
+      "sha1": "12e147973e97447c245e4007af10a77d9287ca46"
+    },
+    {
+      "path": "src/assets/vectors/actions/sms.svg",
+      "sha1": "c55ad1ba0b87d30a1da7fa9900d54bc57014b430"
+    },
+    {
+      "path": "src/assets/vectors/actions/snowflake.svg",
+      "sha1": "1a9d54495144403d99c724cd4817e053ced1c661"
+    },
+    {
+      "path": "src/assets/vectors/actions/subtle-up-arrow.svg",
+      "sha1": "cc90c5597117ca5723beb79b9a47de56d9e681fa"
+    },
+    {
+      "path": "src/assets/vectors/actions/success.svg",
+      "sha1": "e0261fcbee2902ea8c38be1749784247bd7d2512"
+    },
+    {
+      "path": "src/assets/vectors/actions/sun-overlaid.svg",
+      "sha1": "3b947d57f00ff34a0a6e2616c5807a2d9f24ae12"
+    },
+    {
+      "path": "src/assets/vectors/actions/sun.svg",
+      "sha1": "cb3235857b197bf9fd1eda1bb4b5e6a93dd0ead1"
+    },
+    {
+      "path": "src/assets/vectors/actions/trash.svg",
+      "sha1": "f888a8260c227bccd403d37d3702e54ca320bb3c"
+    },
+    {
+      "path": "src/assets/vectors/actions/visible.svg",
+      "sha1": "b6ffa26301cc300e7d0aeb70c502093d679c201c"
+    },
+    {
+      "path": "src/assets/vectors/icons/ac-controller.svg",
+      "sha1": "9e2e339e3e783fe8e1735a42d3e9b2995e135c7b"
+    },
+    {
+      "path": "src/assets/vectors/icons/air-quality-sensor.svg",
+      "sha1": "1db24ecd4c94bc632f433afc94e304645101d01a"
+    },
+    {
+      "path": "src/assets/vectors/icons/apartment.svg",
+      "sha1": "5968c9f4ccdeb801732cb90065c5ef5a7e32a7fc"
+    },
+    {
+      "path": "src/assets/vectors/icons/bathroom.svg",
+      "sha1": "2a3932e97d43dd3db2e2594617707f2903a13b82"
+    },
+    {
+      "path": "src/assets/vectors/icons/bedroom.svg",
+      "sha1": "fd55477be82d1e9de823f0383950a7fc1fbe5392"
+    },
+    {
+      "path": "src/assets/vectors/icons/co-sensor.svg",
+      "sha1": "89f0a7da81e45d2a081dd21c67efcd4fdb9ac8f3"
+    },
+    {
+      "path": "src/assets/vectors/icons/curvey-apartment.svg",
+      "sha1": "9cbe50e6154adb45e5212afd323a16a3836b044e"
+    },
+    {
+      "path": "src/assets/vectors/icons/dimmer.svg",
+      "sha1": "76f6dda7dc2b7ab85f5d8e123af96bed17879235"
+    },
+    {
+      "path": "src/assets/vectors/icons/door-sensor.svg",
+      "sha1": "666b906eead1c2e21bc8aa569c3df20a2d3c48b0"
+    },
+    {
+      "path": "src/assets/vectors/icons/double-panel-curtain.svg",
+      "sha1": "e608a99181dfc90e635683655cb19d348f0e5d5b"
+    },
+    {
+      "path": "src/assets/vectors/icons/electricity-meter.svg",
+      "sha1": "1f8a53780d694796b541ef5e25af8e059a084ae3"
+    },
+    {
+      "path": "src/assets/vectors/icons/gable-over-gable-roof-house.svg",
+      "sha1": "5a45018a8c0ab373602958a9de93df9262efe209"
+    },
+    {
+      "path": "src/assets/vectors/icons/gas-sensor.svg",
+      "sha1": "5ebb8044308111f8e1b7332fb03c2ced9135c2b8"
+    },
+    {
+      "path": "src/assets/vectors/icons/gateway-hub.svg",
+      "sha1": "af3d02e2fefecaebac5982eae3b9de505d28b1d2"
+    },
+    {
+      "path": "src/assets/vectors/icons/green-house.svg",
+      "sha1": "231e6312caf16d2276bb2d53e4730171296a735c"
+    },
+    {
+      "path": "src/assets/vectors/icons/humidity-sensor.svg",
+      "sha1": "3bae02038f4eaf49cd211b575406972f39455042"
+    },
+    {
+      "path": "src/assets/vectors/icons/illuminance-sensor.svg",
+      "sha1": "b03d31debd2fee1136d0ec84320641c09fb1a2dd"
+    },
+    {
+      "path": "src/assets/vectors/icons/ir-remote.svg",
+      "sha1": "1ba1c812560673f59ef1f133733cfb848a892c86"
+    },
+    {
+      "path": "src/assets/vectors/icons/ir-transmitter.svg",
+      "sha1": "9e2e339e3e783fe8e1735a42d3e9b2995e135c7b"
+    },
+    {
+      "path": "src/assets/vectors/icons/kitchen.svg",
+      "sha1": "0a630369486390ef50376c9e473defeb5959fd95"
+    },
+    {
+      "path": "src/assets/vectors/icons/livingroom.svg",
+      "sha1": "7159d3ffa6720ea640140f707ef38c9d7ff39ced"
+    },
+    {
+      "path": "src/assets/vectors/icons/lock.svg",
+      "sha1": "2d7ee634492cb5dd784a7cb9f4508fb7759f915f"
+    },
+    {
+      "path": "src/assets/vectors/icons/moon-and-star.svg",
+      "sha1": "81767d95232afd5902a5eadbb21addec2eb1c21e"
+    },
+    {
+      "path": "src/assets/vectors/icons/motion-sensor.svg",
+      "sha1": "74b8926b552e700912880199eb2bd4356d6b0426"
+    },
+    {
+      "path": "src/assets/vectors/icons/movie-time.svg",
+      "sha1": "8b1c8dd1dcdc181493a0e369b142f83e96dec2e4"
+    },
+    {
+      "path": "src/assets/vectors/icons/multi-sensor.svg",
+      "sha1": "12ff48a891b06cff91a2982dabd11112dd0fb5d7"
+    },
+    {
+      "path": "src/assets/vectors/icons/office.svg",
+      "sha1": "83c2737e14393fa82bac74973e775c858eff5baf"
+    },
+    {
+      "path": "src/assets/vectors/icons/one-gang-relay-module.svg",
+      "sha1": "02585934ee88336694e4f55d78a9f80792271af1"
+    },
+    {
+      "path": "src/assets/vectors/icons/one-gang-switch.svg",
+      "sha1": "02585934ee88336694e4f55d78a9f80792271af1"
+    },
+    {
+      "path": "src/assets/vectors/icons/outlet.svg",
+      "sha1": "332e51f694e14b6281ef3b20f5a004792a0d2628"
+    },
+    {
+      "path": "src/assets/vectors/icons/power-meter.svg",
+      "sha1": "e3d16231cee0b41c95e2ce9336a0e6508ff568ad"
+    },
+    {
+      "path": "src/assets/vectors/icons/raining-cloud.svg",
+      "sha1": "98612a59a3aec54b9eed707a46a5890df9049520"
+    },
+    {
+      "path": "src/assets/vectors/icons/relay.svg",
+      "sha1": "01f39cb4386347e76dc5a60d01ef7cf135b48e67"
+    },
+    {
+      "path": "src/assets/vectors/icons/remote-control-alt.svg",
+      "sha1": "9e2e339e3e783fe8e1735a42d3e9b2995e135c7b"
+    },
+    {
+      "path": "src/assets/vectors/icons/remote-control.svg",
+      "sha1": "9e2e339e3e783fe8e1735a42d3e9b2995e135c7b"
+    },
+    {
+      "path": "src/assets/vectors/icons/repeater.svg",
+      "sha1": "a96dcda93e1f67d5460860d4c7f0af355ef7a8ef"
+    },
+    {
+      "path": "src/assets/vectors/icons/room.svg",
+      "sha1": "6f4fd2ab6edf8374af3692ab8574d09ecd74d126"
+    },
+    {
+      "path": "src/assets/vectors/icons/siheyuan.svg",
+      "sha1": "c1d5ec305d0adffbceb3af541ba83788dd5dd835"
+    },
+    {
+      "path": "src/assets/vectors/icons/single-panel-ltr-curtain.svg",
+      "sha1": "cffa35033a8a56f45e17a2ff4a56fd5f2b43ac1f"
+    },
+    {
+      "path": "src/assets/vectors/icons/single-panel-rtl-curtain.svg",
+      "sha1": "d0b63853db5ed9a166ecf4ca4485ea58fcf9b454"
+    },
+    {
+      "path": "src/assets/vectors/icons/siren.svg",
+      "sha1": "93be4cde1585d491d0ef7bef9c0a549ad34b247f"
+    },
+    {
+      "path": "src/assets/vectors/icons/smoke-sensor.svg",
+      "sha1": "105207264ad08da9dd9200b39e504f8c6af82e63"
+    },
+    {
+      "path": "src/assets/vectors/icons/snow.svg",
+      "sha1": "89e2c5d18f0adef90448c66be43052824970d4de"
+    },
+    {
+      "path": "src/assets/vectors/icons/soil-sensor.svg",
+      "sha1": "7a935f58b62d4ba0d277239b87ab6e3c21e4bf9c"
+    },
+    {
+      "path": "src/assets/vectors/icons/store.svg",
+      "sha1": "21c14dd2d61fd7d44917217ed66510ee45b9f035"
+    },
+    {
+      "path": "src/assets/vectors/icons/street-light.svg",
+      "sha1": "76f6dda7dc2b7ab85f5d8e123af96bed17879235"
+    },
+    {
+      "path": "src/assets/vectors/icons/sunrise.svg",
+      "sha1": "207b028418b2657f8b8c568842c2f2c81c224e63"
+    },
+    {
+      "path": "src/assets/vectors/icons/sunset.svg",
+      "sha1": "7b9b83f6e40ce31c232368294228ef88060e1f54"
+    },
+    {
+      "path": "src/assets/vectors/icons/temperature-sensor.svg",
+      "sha1": "149a0bc5602064e5dbd145aa9ba9f50dde5566c3"
+    },
+    {
+      "path": "src/assets/vectors/icons/thermostat.svg",
+      "sha1": "1b553ce88503859d4d055091c2f5b33b97619ace"
+    },
+    {
+      "path": "src/assets/vectors/icons/three-gang-relay-module.svg",
+      "sha1": "90e9a5821fb0a2355adc4bf2b0418edd9b07e1ac"
+    },
+    {
+      "path": "src/assets/vectors/icons/three-gang-switch.svg",
+      "sha1": "90e9a5821fb0a2355adc4bf2b0418edd9b07e1ac"
+    },
+    {
+      "path": "src/assets/vectors/icons/tiny-house.svg",
+      "sha1": "0122b840ab4d461615c971afc2afc204f3d1e1fd"
+    },
+    {
+      "path": "src/assets/vectors/icons/two-gang-relay-module.svg",
+      "sha1": "39604244b7839952a7d13cb08c0c806a7ee953a4"
+    },
+    {
+      "path": "src/assets/vectors/icons/two-gang-switch.svg",
+      "sha1": "39604244b7839952a7d13cb08c0c806a7ee953a4"
+    },
+    {
+      "path": "src/assets/vectors/icons/unknown.svg",
+      "sha1": "6c5c5d65b59a17fd056fdf485ce1d012ffc511a8"
+    },
+    {
+      "path": "src/assets/vectors/icons/unlock.svg",
+      "sha1": "2eb4aa07f3559a12ae7694830169c961b0debf83"
+    },
+    {
+      "path": "src/assets/vectors/icons/valve.svg",
+      "sha1": "2dfe0a4be5e4a7a58a9319481cd41ca1a4b421ab"
+    },
+    {
+      "path": "src/assets/vectors/icons/vertical-curtain.svg",
+      "sha1": "996319da39181e73a959f4d99f833e378fbb4c6c"
+    },
+    {
+      "path": "src/assets/vectors/icons/water-leakage-sensor.svg",
+      "sha1": "cb1a782e9726dce7f1e634c11d75768f845e8a9e"
+    },
+    {
+      "path": "src/assets/vectors/narratives/repeater-active.svg",
+      "sha1": "779684d606b4e4db763d54ff55dfa3d12afc3d73"
+    },
+    {
+      "path": "src/assets/vectors/narratives/repeater-inactive.svg",
+      "sha1": "41927430148012c639d349884eb7a79f03aa51e4"
+    },
+    {
+      "path": "src/assets/vectors/narratives/smart-lady.svg",
+      "sha1": "94aeffbfab3332b87e83c303c84a10839fc34d31"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/activity-indicator.svg",
+      "sha1": "1688859484589e933ab6096368f7f7a2cb21870d"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/checkbox-box.svg",
+      "sha1": "9c2ab1a5942c68063ae02829b5c57530fd4c3f78"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/checkbox-checked.svg",
+      "sha1": "df552021fc511f5f95f0ae4024b037c2e21456e6"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/checkbox-crossed.svg",
+      "sha1": "252e0b0368a375b7c86ea10f96562615ac9f2a4a"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/curtain-fabric.svg",
+      "sha1": "4cb73d1c4109562fdd5371690f2ff9288a42241e"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/lock-body.svg",
+      "sha1": "1534e26b4cbd7fa1457477fbd713dc4082737b6d"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/lock-shackle.svg",
+      "sha1": "ef8f5349c9f39fedb187955211e13e5c63ce4ee1"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/remote-button-down.svg",
+      "sha1": "c1743ff7cda4d9d4bc7961d65d8c7231b9293a14"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/remote-button-left.svg",
+      "sha1": "05a887f1e36660418c82a772a9e357563a5a5a7f"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/remote-button-ok.svg",
+      "sha1": "e98bc193d86fa56f6862ad44538b66061d5ff0dc"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/remote-button-right.svg",
+      "sha1": "d7f74e7366e0b5076d3896fa394e3d6f63e28f05"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/remote-button-up.svg",
+      "sha1": "cfbc40aff5d06d97409208bee84e8cd6f1bbea8b"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/thermostat-ring.svg",
+      "sha1": "6be7e0efaf60efef64f079a814f9d711a9dc3e98"
+    },
+    {
+      "path": "src/assets/vectors/widget-elements/window.svg",
+      "sha1": "a47b04c08710b18e5047bb70e3f8f903c6e9be95"
+    }
+  ]
+}

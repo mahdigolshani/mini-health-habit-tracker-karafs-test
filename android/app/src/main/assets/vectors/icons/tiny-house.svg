@@ -1,0 +1,13 @@
+<svg
+  width="42"
+  height="42"
+  viewBox="0 0 42 42"
+  fill="none" xmlns="http://www.w3.org/2000/svg"
+>
+  <g fill="#ddd7e9" stroke="#8e560e" stroke-miterlimit="10">
+    <path d="M12.184 17.472v14.147h17.684V17.472l-8.842-7.074-8.842 7.074z" stroke-width="1.5" />
+    <path d="M18.056 23.926v7.639h5.871v-7.639h-5.871z" />
+  </g>
+  <path d="M12.184 31.566h17.684-17.684z" fill="#f2eb61" />
+  <path d="M12.184 31.566h17.684" stroke="#8e560e" stroke-miterlimit="10" />
+</svg>

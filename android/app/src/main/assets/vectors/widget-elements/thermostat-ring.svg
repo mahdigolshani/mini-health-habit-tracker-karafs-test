@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" fill="none"
+    color="#000">
+    <mask id="ThermRingMask" maskUnits="userSpaceOnUse" x="0" y="0" width="192" height="180"
+        mask-type="alpha">
+        <path
+            d="M136.317 176.46c1.313 2.614 4.506 3.68 7.042 2.223a95.65 95.65 0 0 0 45.475-104.889A95.65 95.65 0 0 0 96.019.081 95.65 95.65 0 0 0 2.763 73.235a95.65 95.65 0 0 0 6.055 62.438 95.65 95.65 0 0 0 38.789 42.723c2.528 1.471 5.726.424 7.055-2.181s.285-5.78-2.232-7.269a85.06 85.06 0 0 1-39.373-93.22 85.06 85.06 0 0 1 82.93-65.054 85.06 85.06 0 0 1 52.646 18.451c14.975 11.894 25.506 28.486 29.892 47.1a85.06 85.06 0 0 1-39.932 92.982c-2.527 1.474-3.59 4.642-2.276 7.255z"
+            fill="#fff" />
+    </mask>
+    <g mask="url(#ThermRingMask)">
+        <g filter="url(#ThermRingA)">
+            <ellipse cx="121.239" cy="95.733" rx="113.342" ry="83.31" fill="currentColor"
+                transform="rotate(90 121.239 95.733)" />
+        </g>
+        <g filter="url(#ThermRingB)">
+            <ellipse cx="36.981" cy="101.073" rx="113.131" ry="82.057" fill="currentColor"
+                transform="rotate(90 36.981 101.073)" fill-opacity=".2" />
+        </g>
+    </g>
+    <defs>
+        <filter id="ThermRingA" x="-22.07" y="-77.609" width="286.619" height="346.684"
+            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" />
+            <feBlend in="SourceGraphic" />
+            <feGaussianBlur stdDeviation="30" />
+        </filter>
+        <filter id="ThermRingB" x="-105.076" y="-72.059" width="284.113" height="346.262"
+            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" />
+            <feBlend in="SourceGraphic" />
+            <feGaussianBlur stdDeviation="30" />
+        </filter>
+    </defs>
+</svg>

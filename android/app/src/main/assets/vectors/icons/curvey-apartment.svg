@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+    <path
+        d="M17.543 10.116c.756.002 1.504.155 2.201.448s1.328.723 1.858 1.262a5.71 5.71 0 0 1 1.635 4.09v13.246c-.032.719-.34 1.399-.861 1.896s-1.213.775-1.933.774h-5.818c-.741 0-1.452-.294-1.976-.818s-.818-1.235-.818-1.976V15.916a5.71 5.71 0 0 1 1.641-4.096 5.71 5.71 0 0 1 1.864-1.261c.699-.293 1.449-.443 2.207-.443z"
+        fill="#c3e18e" stroke="#5d4207" stroke-miterlimit="10" />
+    <path
+        d="M24.457 10.116c.758 0 1.508.151 2.206.443a5.71 5.71 0 0 1 3.096 3.144 5.71 5.71 0 0 1 .409 2.213v13.246c-.032.723-.343 1.404-.867 1.902s-1.221.773-1.944.768h-5.801c-.741 0-1.452-.294-1.976-.818s-.818-1.235-.818-1.976V15.916a5.71 5.71 0 0 1 5.712-5.712l-.018-.088z"
+        fill="#c3e18e" stroke="#5d4207" stroke-miterlimit="10" />
+    <g fill="#00a755">
+        <rect width="2.07" height="2.07" fill="green" x="14" y="14" />
+        <rect width="2.07" height="2.07" fill="green" x="14" y="17.25" />
+        <rect width="2.07" height="2.07" fill="green" x="14" y="20.5" />
+        <rect width="2.07" height="2.07" fill="green" x="14" y="23.75" />
+        <rect width="2.07" height="2.07" fill="green" x="14" y="27" />
+        <rect width="2.07" height="2.07" fill="green" x="21.25" y="14" />
+        <rect width="2.07" height="2.07" fill="green" x="21.25" y="17.25" />
+        <rect width="2.07" height="2.07" fill="green" x="21.25" y="20.5" />
+        <rect width="2.07" height="2.07" fill="green" x="21.25" y="23.75" />
+        <rect width="2.07" height="2.07" fill="green" x="21.25" y="27" />
+        <rect width="2.07" height="2.07" fill="green" x="25.76" y="17.25" />
+        <rect width="2.07" height="2.07" fill="green" x="25.76" y="20.5" />
+        <rect width="2.07" height="2.07" fill="green" x="25.76" y="23.75" />
+        <rect width="2.07" height="2.07" fill="green" x="25.76" y="27" />
+    </g>
+</svg>

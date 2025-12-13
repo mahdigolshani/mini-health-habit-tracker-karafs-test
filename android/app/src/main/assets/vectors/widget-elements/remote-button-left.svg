@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="172" viewBox="0 0 79 172" fill="none"
+    color="#000">
+    <g filter="url(#RemoteLeft)">
+        <path
+            d="M47.72 8.786c-3.051-3.195-8.138-3.33-11.117-.067A117 117 0 0 0 6.032 84.921c-.354 15.361 2.322 30.641 7.873 44.967 4.587 11.837 11.062 22.831 19.159 32.562 2.826 3.396 7.913 3.496 11.109.444l23.989-22.909c3.195-3.051 3.268-8.091.614-11.623-3.73-4.964-6.769-10.427-9.022-16.24a67.83 67.83 0 0 1 1.195-51.901 67.83 67.83 0 0 1 9.759-15.808c2.814-3.406 2.973-8.443-.079-11.639L47.72 8.786z"
+            fill="currentColor" />
+    </g>
+    <defs>
+        <filter id="RemoteLeft" x=".001" y=".33" width="78.867" height="170.764"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="RemoteLeft" />
+            <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset dy="2" />
+            <feGaussianBlur stdDeviation="2" />
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" />
+            <feBlend in2="RemoteLeft" result="C" />
+            <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="3" />
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0" />
+            <feBlend in2="C" />
+            <feBlend in="SourceGraphic" />
+        </filter>
+    </defs>
+</svg>

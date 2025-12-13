@@ -1,0 +1,12 @@
+<svg
+  width="32"
+  height="32"
+  viewBox="0 0 32 32"
+  color="#000" xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    stroke="currentColor"
+    fill="currentColor"
+    d="M9.25 12.25v-1.5a1.5 1.5 0 0 1 1.5-1.5h1.5m7.5 0h1.5a1.5 1.5 0 0 1 1.5 1.5v1.5m0 7.5v1.5a1.5 1.5 0 0 1-1.5 1.5h-1.5m-7.5 0h-1.5a1.5 1.5 0 0 1-1.5-1.5v-1.5"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
