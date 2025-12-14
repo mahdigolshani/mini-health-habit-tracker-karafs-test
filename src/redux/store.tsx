@@ -38,11 +38,9 @@ export const store = configureStore({
   reducer: persistedReducer,
   middleware: getdefaultMiddleware =>
     getdefaultMiddleware({
-      // Redux persist
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-      // Thunk middleware removed
     }),
 });
 

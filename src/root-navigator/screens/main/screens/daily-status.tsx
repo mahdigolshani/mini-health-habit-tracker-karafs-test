@@ -1,8 +1,8 @@
 import {Text, View} from 'react-native';
 import {type CompositeScreenProps} from '@react-navigation/native';
 import type {BottomTabScreenProps} from '@react-navigation/bottom-tabs';
-import type {BottomTabsParamList} from '@root-navigator/screens/main';
-import type {RootNavigatorScreenProps} from '@root-navigator';
+import type {BottomTabsParamList} from '@/root-navigator/screens/main';
+import type {RootNavigatorScreenProps} from '@/root-navigator';
 
 export type DailyStatusTabScreenProps = CompositeScreenProps<
   BottomTabScreenProps<BottomTabsParamList, 'daily-status'>,
