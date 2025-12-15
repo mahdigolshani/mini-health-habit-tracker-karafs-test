@@ -9,9 +9,6 @@ import {
   Pressable,
 } from 'react-native';
 import {type CompositeScreenProps} from '@react-navigation/native';
-import type {RootNavigatorScreenProps} from '@/root-navigator';
-import type {BottomTabScreenProps} from '@react-navigation/bottom-tabs';
-import type {BottomTabsParamList} from '@/root-navigator/screens/main';
 import {useDispatch, useSelector} from 'react-redux';
 import {
   deleteHabit,
@@ -21,13 +18,15 @@ import {
 import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {type AppDispatch} from '@/redux/store';
 import type {Habit} from '@/redux/slices/habits/fake-data';
+import {StackScreenProps} from '@react-navigation/stack';
+import {HabitsNavigatorScreenProps, HabitsParamList} from '..';
 
-export type HabitsTabScreenProps = CompositeScreenProps<
-  BottomTabScreenProps<BottomTabsParamList, 'habits'>,
-  RootNavigatorScreenProps<'authorized'>
+type ListScreenProps = CompositeScreenProps<
+  StackScreenProps<HabitsParamList, 'list'>,
+  HabitsNavigatorScreenProps
 >;
 
-const HabitsTabScreen = ({route, navigation}: HabitsTabScreenProps) => {
+const ListScreen = ({route, navigation}: ListScreenProps) => {
   const habits = useSelector(habitsListSelector);
   const [habitToDeleteId, setHabitToDeleteId] = useState<string | null>(null);
   const [deleteModalVisible, setDeleteModalVisible] = useState(false);
@@ -44,6 +43,9 @@ const HabitsTabScreen = ({route, navigation}: HabitsTabScreenProps) => {
       setHabitToDeleteId(item.id);
       setDeleteModalVisible(true);
     };
+    const handlePressEdit = () => {
+      navigation.navigate('upsert', {habitId: item.id, name: item.title});
+    };
     return (
       <View style={styles.habitItem}>
         <View>
@@ -51,7 +53,7 @@ const HabitsTabScreen = ({route, navigation}: HabitsTabScreenProps) => {
           <Text>{item.description}</Text>
         </View>
         <View>
-          <Button title="Edit" />
+          <Button title="Edit" onPress={handlePressEdit} />
           <Button title="Delete" onPress={handlePressDelete} />
         </View>
       </View>
@@ -149,4 +151,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HabitsTabScreen;
+export default ListScreen;

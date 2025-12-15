@@ -1,10 +1,10 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {StyleSheet, View} from 'react-native';
 import type {StackScreenProps} from '@react-navigation/stack';
-import type {RootNavigatorParamList} from '@root-navigator';
+import type {RootNavigatorParamList} from '@/root-navigator';
 import DashboardTabScreen from './screens/dashboard';
 import DailyStatusScreen from './screens/daily-status';
-import HabitsTabScreen from './screens/habits';
+import HabitsNavigator from './screens/habits';
 
 export type BottomTabsParamList = {
   'daily-status': {deleteMode?: 'device' | 'room' | undefined} | undefined;
@@ -42,9 +42,10 @@ const BottomTabsNavigatorScreen = () => {
         />
         <BottomTabs.Screen
           name="habits"
-          component={HabitsTabScreen}
+          component={HabitsNavigator}
           options={{
             title: 'Habits',
+            headerShown: false,
           }}
         />
       </BottomTabs.Navigator>

@@ -1,5 +1,5 @@
 import {type JSX} from 'react';
-import {NavigationContainer} from '@react-navigation/native';
+import {DefaultTheme, NavigationContainer} from '@react-navigation/native';
 import RootNavigator from '@/root-navigator';
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
