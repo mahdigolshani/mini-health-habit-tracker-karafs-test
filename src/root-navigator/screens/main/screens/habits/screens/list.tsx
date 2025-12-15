@@ -26,7 +26,7 @@ type ListScreenProps = CompositeScreenProps<
   HabitsNavigatorScreenProps
 >;
 
-const ListScreen = ({route, navigation}: ListScreenProps) => {
+const ListScreen = ({navigation}: ListScreenProps) => {
   const habits = useSelector(habitsListSelector);
   const [habitToDeleteId, setHabitToDeleteId] = useState<string | null>(null);
   const [deleteModalVisible, setDeleteModalVisible] = useState(false);
@@ -78,6 +78,12 @@ const ListScreen = ({route, navigation}: ListScreenProps) => {
         keyExtractor={item => item.id}
         renderItem={renderItem}
         contentContainerStyle={styles.listContentContainer}
+        ListHeaderComponent={
+          <Button
+            title="Add Habit"
+            onPress={() => navigation.navigate('upsert')}
+          />
+        }
       />
       <Modal
         visible={deleteModalVisible}

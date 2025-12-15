@@ -56,7 +56,23 @@ export const habitsSlice = createSlice({
   reducers: {},
   extraReducers: builder => {
     builder.addCase(fetchHabits.fulfilled, (state, action) => {
-      state.list = action.payload;
+      state.list.sort((a, b) => b.updatedAt - a.updatedAt);
+
+      const map = new Map();
+
+      [...state.list, ...action.payload].forEach(item => {
+        const existing = map.get(item.id);
+
+        if (
+          !existing ||
+          new Date(item.updatedAt) > new Date(existing.updatedAt)
+        ) {
+          map.set(item.id, item);
+        }
+      });
+      state.list = Array.from(map.values()).sort(
+        (a, b) => b.updatedAt - a.updatedAt,
+      );
     });
     builder.addCase(addHabit.fulfilled, (state, action) => {
       state.list.push({
@@ -65,6 +81,7 @@ export const habitsSlice = createSlice({
         progress: 0,
         updatedAt: Date.now(),
       });
+      state.list.sort((a, b) => b.updatedAt - a.updatedAt);
     });
     builder.addCase(updateHabit.fulfilled, (state, action) => {
       const index = state.list.findIndex(
