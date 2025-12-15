@@ -18,9 +18,19 @@ export const fetchHabits = createAsyncThunk(
 
 export const addHabit = createAsyncThunk(
   'habits/addHabit',
-  async (newHabit: Habit) => {
+  async (newHabit: Pick<Habit, 'title' | 'description' | 'target'>) => {
     await wait(300);
     return newHabit;
+  },
+);
+
+export const updateHabit = createAsyncThunk(
+  'habits/updateHabit',
+  async (
+    updatedHabit: Pick<Habit, 'title' | 'description' | 'target' | 'id'>,
+  ) => {
+    await wait(300);
+    return updatedHabit;
   },
 );
 
@@ -49,7 +59,20 @@ export const habitsSlice = createSlice({
       state.list = action.payload;
     });
     builder.addCase(addHabit.fulfilled, (state, action) => {
-      state.list.push(action.payload);
+      state.list.push({
+        ...action.payload,
+        id: `habit-${Date.now()}`,
+        progress: 0,
+        updatedAt: Date.now(),
+      });
+    });
+    builder.addCase(updateHabit.fulfilled, (state, action) => {
+      const index = state.list.findIndex(
+        habit => habit.id === action.payload.id,
+      );
+      if (~index) {
+        Object.assign(state.list[index], action.payload);
+      }
     });
     builder.addCase(deleteHabit.fulfilled, (state, action) => {
       state.list = state.list.filter(habit => habit.id !== action.payload);
@@ -58,6 +81,9 @@ export const habitsSlice = createSlice({
 });
 
 export const habitsListSelector = (state: RootState) => state.habits.list;
+
+export const habitSelector = (habitId?: string) => (state: RootState) =>
+  state.habits.list.find(habit => habit.id === habitId);
 
 export const {} = habitsSlice.actions;
 
