@@ -19,17 +19,19 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {setupListeners} from '@reduxjs/toolkit/query';
 import userSlice from './slices/user';
 import habitsSlice from './slices/habits';
+import dailyProgressSlice from './slices/daily-progress';
 
 const rootPersistConfig = {
   key: 'root',
   storage: AsyncStorage,
   blacklist: [],
-  whitelist: ['habits'],
+  whitelist: ['habits', 'dailyProgress'],
 };
 
 const rootReducer = combineReducers({
   user: userSlice,
   habits: habitsSlice,
+  dailyProgress: dailyProgressSlice,
 });
 
 const persistedReducer = persistReducer(rootPersistConfig, rootReducer);

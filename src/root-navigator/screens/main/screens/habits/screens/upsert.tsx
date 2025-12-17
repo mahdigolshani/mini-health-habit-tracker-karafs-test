@@ -10,7 +10,7 @@ import {addHabit, habitSelector, updateHabit} from '@/redux/slices/habits';
 import {useCallback, useRef, useState} from 'react';
 import {Button} from 'react-native-web';
 import {type AppDispatch} from '@/redux/store';
-import {Habit} from '@/redux/slices/habits/fake-data';
+import {Habit} from '@/redux/slices/habits/types';
 
 export type UpsertScreenProps = CompositeScreenProps<
   StackScreenProps<HabitsParamList, 'upsert'>,

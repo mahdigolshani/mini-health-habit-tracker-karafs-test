@@ -17,7 +17,7 @@ import {
 } from '@/redux/slices/habits';
 import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {type AppDispatch} from '@/redux/store';
-import type {Habit} from '@/redux/slices/habits/fake-data';
+import type {Habit} from '@/redux/slices/habits/types';
 import {StackScreenProps} from '@react-navigation/stack';
 import {HabitsNavigatorScreenProps, HabitsParamList} from '..';
 

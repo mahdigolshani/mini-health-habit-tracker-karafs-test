@@ -1,17 +1,23 @@
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
-import {fakeHabits, type Habit} from './fake-data';
+import {type Habit} from './types';
 import type {RootState} from '@/redux/store';
 
 // ATTENTION: RTK Slice and Thunks are only being used to implement "Last Write Wins" strategy for data persistence later.
 
 const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
+const fakeHabits: Habit[] = Array.from(new Array(10).keys()).map(index => ({
+  id: `habit-${index + 1}`,
+  title: `Habit ${index + 1}`,
+  description: `This is the description for Habit ${index + 1}.`,
+  target: index ** 2,
+  updatedAt: 1766005871203 - Math.floor((index / 10) * 86400000),
+}));
+
 export const fetchHabits = createAsyncThunk(
   'users/fetchByIdStatus',
   async () => {
-    console.log(1);
     await wait(500);
-    console.log(2);
     return fakeHabits;
   },
 );
@@ -78,7 +84,6 @@ export const habitsSlice = createSlice({
       state.list.push({
         ...action.payload,
         id: `habit-${Date.now()}`,
-        progress: 0,
         updatedAt: Date.now(),
       });
       state.list.sort((a, b) => b.updatedAt - a.updatedAt);
