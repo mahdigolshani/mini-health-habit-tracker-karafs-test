@@ -15,6 +15,7 @@ import {
   fetchHabits,
   habitsListSelector,
 } from '@/redux/slices/habits';
+import {privilageLevelSelector} from '@/redux/slices/user';
 import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {type AppDispatch} from '@/redux/store';
 import type {Habit} from '@/redux/slices/habits/types';
@@ -28,6 +29,8 @@ type ListScreenProps = CompositeScreenProps<
 
 const ListScreen = ({navigation}: ListScreenProps) => {
   const habits = useSelector(habitsListSelector);
+  const privilegeLevel = useSelector(privilageLevelSelector);
+  const isGuest = privilegeLevel === 'guest';
   const [habitToDeleteId, setHabitToDeleteId] = useState<string | null>(null);
   const [deleteModalVisible, setDeleteModalVisible] = useState(false);
   const handleDeleteModalClose = useRef(() => {
@@ -40,22 +43,36 @@ const ListScreen = ({navigation}: ListScreenProps) => {
 
   const renderItem = useRef<ListRenderItem<Habit>>(({item}) => {
     const handlePressDelete = () => {
+      if (isGuest) return;
       setHabitToDeleteId(item.id);
       setDeleteModalVisible(true);
     };
     const handlePressEdit = () => {
+      if (isGuest) return;
       navigation.navigate('upsert', {habitId: item.id, name: item.title});
     };
+    const isDefaultHabit = item.isDefault ?? false;
     return (
       <View style={styles.habitItem}>
         <View>
-          <Text style={styles.title}>{item.title}</Text>
+          <Text style={styles.title}>
+            {item.title}
+            {isDefaultHabit && (
+              <Text style={styles.defaultBadge}> (Default)</Text>
+            )}
+          </Text>
           <Text>{item.description}</Text>
         </View>
-        <View>
-          <Button title="Edit" onPress={handlePressEdit} />
-          <Button title="Delete" onPress={handlePressDelete} />
-        </View>
+        {!isGuest && (
+          <View>
+            {!isDefaultHabit && (
+              <>
+                <Button title="Edit" onPress={handlePressEdit} />
+                <Button title="Delete" onPress={handlePressDelete} />
+              </>
+            )}
+          </View>
+        )}
       </View>
     );
   }).current;
@@ -79,10 +96,18 @@ const ListScreen = ({navigation}: ListScreenProps) => {
         renderItem={renderItem}
         contentContainerStyle={styles.listContentContainer}
         ListHeaderComponent={
-          <Button
-            title="Add Habit"
-            onPress={() => navigation.navigate('upsert')}
-          />
+          !isGuest ? (
+            <Button
+              title="Add Habit"
+              onPress={() => navigation.navigate('upsert')}
+            />
+          ) : (
+            <View style={styles.guestNotice}>
+              <Text style={styles.guestNoticeText}>
+                Guest Mode: Read-only access
+              </Text>
+            </View>
+          )
         }
       />
       <Modal
@@ -154,6 +179,22 @@ const styles = StyleSheet.create({
   separator: {
     height: 1,
     backgroundColor: '#00000020',
+  },
+  defaultBadge: {
+    fontSize: 12,
+    color: '#666',
+    fontStyle: 'italic',
+  },
+  guestNotice: {
+    padding: 12,
+    backgroundColor: '#fff3cd',
+    borderRadius: 8,
+    marginBottom: 16,
+  },
+  guestNoticeText: {
+    fontSize: 14,
+    color: '#856404',
+    textAlign: 'center',
   },
 });
 

@@ -25,7 +25,8 @@
     "paths": {
       "@/*": ["./src/*"],
     },
+    "types": ["jest"],
   },
-  "include": ["src", "src/vite-env.d.ts", "src/env.d.ts"],
+  "include": ["src", "src/vite-env.d.ts", "src/env.d.ts", "**/__tests__/**/*"],
   "references": [{ "path": "./tsconfig.node.json" }],
 }

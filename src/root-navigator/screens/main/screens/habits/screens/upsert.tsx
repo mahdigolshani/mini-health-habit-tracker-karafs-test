@@ -7,7 +7,8 @@ import {type StackScreenProps} from '@react-navigation/stack';
 import {ScrollView, StyleSheet, Text, TextInput, View} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
 import {addHabit, habitSelector, updateHabit} from '@/redux/slices/habits';
-import {useCallback, useRef, useState} from 'react';
+import {privilageLevelSelector} from '@/redux/slices/user';
+import {useCallback, useRef, useState, useEffect} from 'react';
 import {Button} from 'react-native-web';
 import {type AppDispatch} from '@/redux/store';
 import {Habit} from '@/redux/slices/habits/types';
@@ -25,10 +26,18 @@ const initialHabit: Pick<Habit, 'title' | 'description' | 'target'> = {
 
 const UpsertScreen = ({route, navigation}: UpsertScreenProps) => {
   const storedHabit = useSelector(habitSelector(route.params?.habitId));
+  const privilegeLevel = useSelector(privilageLevelSelector);
+  const isGuest = privilegeLevel === 'guest';
   const [habit, setHabit] = useState<
     Habit | Pick<Habit, 'title' | 'description' | 'target'>
   >(storedHabit ?? initialHabit);
   const dispatch = useDispatch<AppDispatch>();
+
+  useEffect(() => {
+    if (isGuest) {
+      navigation.goBack();
+    }
+  }, [isGuest, navigation]);
 
   const handleNameInputChange = useRef((text: string) => {
     setHabit(prev => ({...prev, title: text}));
@@ -44,13 +53,24 @@ const UpsertScreen = ({route, navigation}: UpsertScreenProps) => {
   }).current;
 
   const handleSubmit = useCallback(() => {
+    if (isGuest) return;
+
+    if (!habit.title.trim()) {
+      return;
+    }
+
+    if ('id' in habit && storedHabit?.isDefault) {
+      navigation.goBack();
+      return;
+    }
+
     if ('id' in habit) {
       dispatch(updateHabit(habit));
     } else {
       dispatch(addHabit(habit));
     }
     navigation.goBack();
-  }, [habit, dispatch, navigation]);
+  }, [habit, dispatch, navigation, isGuest, storedHabit]);
 
   return (
     <ScrollView contentContainerStyle={styles.contentContainer}>
@@ -75,15 +95,18 @@ const UpsertScreen = ({route, navigation}: UpsertScreenProps) => {
         />
       </View>
       <View>
-        <Text style={styles.label}>Target: </Text>
+        <Text style={styles.label}>Target (Optional): </Text>
         <TextInput
           style={styles.input}
-          placeholder="Ex: 8"
-          value={habit?.target.toString()}
+          placeholder="Ex: 8 (leave empty for no target)"
+          value={habit?.target > 0 ? habit.target.toString() : ''}
           onChangeText={handleTargetInputChange}
           placeholderTextColor={'grey'}
           keyboardType="numeric"
         />
+        <Text style={styles.helperText}>
+          Leave empty if this habit doesn't have a numeric target
+        </Text>
       </View>
       <Button
         title={'id' in habit ? 'Update Habit' : 'Create Habit'}
@@ -107,6 +130,13 @@ const styles = StyleSheet.create({
     borderColor: '#ccc',
     borderRadius: 4,
     padding: 8,
+    color: '#000',
+  },
+  helperText: {
+    fontSize: 12,
+    color: '#666',
+    marginTop: 4,
+    fontStyle: 'italic',
   },
 });
 

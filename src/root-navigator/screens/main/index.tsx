@@ -1,5 +1,5 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {StyleSheet, View} from 'react-native';
+import {View} from 'react-native';
 import type {StackScreenProps} from '@react-navigation/stack';
 import type {RootNavigatorParamList} from '@/root-navigator';
 import DashboardTabScreen from './screens/dashboard';

@@ -4,4 +4,5 @@ export interface Habit {
   description?: string;
   target: number;
   updatedAt: number;
+  isDefault?: boolean;
 }
